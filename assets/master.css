@@ -274,7 +274,7 @@ main {
 
 .quote p {
   font-size: 1rem;
-  line-height: 1.3rem !important;
+  line-height: 1.5rem !important;
   padding: .5rem 1rem !important;
   font-weight: bold;
   color: var(--dorkodu-smokegray-darkest);
@@ -331,11 +331,6 @@ main {
 }
 
 /* CONTENT */
-
-#content {
-  padding-bottom: 40rem;
-  margin-bottom: 5rem;
-}
 
 hr {
   height: 0;
@@ -988,11 +983,7 @@ ul.list {
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 42rem;
+  width: 100%;
   background-color: var(--dorkodu-smokegray-lighter);
   border-top: .5rem solid var(--dorkodu-smokegray-light);
 }
@@ -1233,7 +1224,6 @@ h1.motto {
     width: 85%;
     margin: 0 auto;
     margin-bottom: 5rem;
-    padding-bottom: 28rem;
   }
 
   .header-division {
