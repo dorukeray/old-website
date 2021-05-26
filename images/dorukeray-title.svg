@@ -13,7 +13,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (1.0.1+r74)"
-   sodipodi:docname="dorukeray-title.svg">
+   sodipodi:docname="dorukeray-title.svg"
+   inkscape:export-filename="/home/dorkodu/code/doruk.dorkodu.com/images/dorukeray-title.png"
+   inkscape:export-xdpi="34.636364"
+   inkscape:export-ydpi="34.636364">
   <defs
      id="defs2">
     <rect
@@ -36,9 +39,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.46797753"
-     inkscape:cx="819.31129"
-     inkscape:cy="207.87097"
+     inkscape:zoom="0.32052105"
+     inkscape:cx="764.62764"
+     inkscape:cy="274.85007"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -58,7 +61,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -69,12 +72,12 @@
     <text
        xml:space="preserve"
        style="font-weight:bold;font-size:92.6042px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-       x="10.234454"
+       x="7.1289167"
        y="85.350273"
        id="text835"><tspan
          sodipodi:role="line"
          id="tspan833"
-         x="10.234454"
+         x="7.1289167"
          y="85.350273"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:92.6042px;font-family:'Zilla Slab';-inkscape-font-specification:'Zilla Slab Bold';stroke-width:0.264583"><tspan
            style="font-size:92.6042px;fill:#1c2224"
@@ -95,20 +98,5 @@
        xml:space="preserve"
        id="text843"
        style="font-weight:bold;font-size:8.46667px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect845);" />
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:76.7292px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-       x="28.289724"
-       y="443.1738"
-       id="text835-0"><tspan
-         sodipodi:role="line"
-         id="tspan833-3"
-         x="28.289724"
-         y="443.1738"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:76.7292px;font-family:Norasi;-inkscape-font-specification:'Norasi Bold';stroke-width:0.264583"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Norasi;-inkscape-font-specification:'Norasi Bold';fill:#1c2224;stroke-width:0.264583"
-           id="tspan849-4">doruk </tspan><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Norasi;-inkscape-font-specification:'Norasi Bold';fill:#b7c4c8;stroke-width:0.264583"
-           id="tspan851-9">eray</tspan></tspan></text>
   </g>
 </svg>
