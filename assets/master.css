@@ -467,10 +467,16 @@ article ul {
   list-style: disc;
 }
 
-article li {
+article ul li {
   color: #303333;
   font-size: 1rem;
 }
+
+article ul li::marker {
+  color: var(--dorkodu-smokegray-darkest) !important;
+}
+
+
 
 article ul li h4 {
   margin: 0.3125rem 0 !important;
@@ -1091,6 +1097,11 @@ h1.motto {
   .intro-section .intro-section__tagline,
   .intro-section .intro-section__statement {
     text-align: left;
+  }
+
+  .intro-section__contents {
+    max-width: 24rem;
+    margin: 0 auto;
   }
 
   #page-wrapper {
