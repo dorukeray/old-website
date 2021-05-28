@@ -446,7 +446,6 @@ hr {
 }
 
 .set a {
-  padding: 0.2rem 0 0;
   color: var(--dorkodu-smokegray-dim);
   font-weight: bold;
 }
@@ -462,14 +461,20 @@ article {
 }
 
 article ul {
-  margin: 0.625rem 1rem;
-  padding: 0.625rem;
+  margin: 0.5rem 1.5rem;
+  padding: 0.5rem 0;
   list-style: disc;
 }
 
 article ul li {
   color: #303333;
   font-size: 1rem;
+  padding-top: .25rem;
+}
+
+article ul li p {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
 }
 
 article ul li::marker {
@@ -863,6 +868,7 @@ ul.list {
 
 .footer-nav {
   padding: .625rem;
+  max-width: 580px;
 }
 
 .footer-nav .footer-nav-column {
@@ -1037,6 +1043,10 @@ h1.motto {
   .showcase-list li {
     max-width: 60%;
   }
+
+  .footer .footer-nav-column {
+    width: 44%;
+  }
 }
 
 @media (min-width: 600px) {
@@ -1055,7 +1065,6 @@ h1.motto {
     width: 80%;
     margin: .5rem auto;
   }
-
 }
 
 @media (min-width: 760px) {
@@ -1097,11 +1106,6 @@ h1.motto {
   .footer {
     height: 24rem;
   }
-
-  .footer .footer-nav-column {
-    width: 29%;
-  }
-
 }
 
 @media (min-width: 900px) {
