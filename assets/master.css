@@ -473,7 +473,7 @@ article ul li {
 }
 
 article ul li::marker {
-  color: var(--dorkodu-smokegray-darkest) !important;
+  color: var(--dorkodu-smokegray-darker) !important;
 }
 
 
@@ -523,172 +523,6 @@ article.gray-statue>p {
   font-weight: bold;
   text-align: center;
   padding: .5rem 1rem;
-}
-
-/* Comment */
-
-.latest-notes-list {
-  max-width: 32rem;
-  margin: 1rem auto;
-}
-
-.latest-notes-list-element {
-  border-bottom: .2rem solid var(--dorkodu-smokegray-lighter);
-  border-radius: .5rem .5rem 0 0;
-  padding: .1rem .5rem .5rem;
-  margin-bottom: .75rem;
-}
-
-.latest-notes-list-element:hover {
-  border-color: var(--dorkodu-smokegray);
-  background-color: var(--dorkodu-smokegray-sky);
-}
-
-.latest-notes-list-element:hover {
-  border-color: var(--dorkodu-smokegray);
-  background-color: var(--dorkodu-smokegray-sky);
-}
-
-.latest-notes-list-element p {
-  line-height: 1.8rem !important;
-  padding: 0;
-  margin: .25rem 0;
-  font-size: 1.5rem;
-}
-
-.latest-notes-list-element>.tag {
-  margin: .25rem 0 .75rem;
-}
-
-.latest-notes-list-element>.tag span {
-  background-color: var(--dorkodu-smokegray-lighter);
-  border-radius: .4rem;
-  padding: .25rem .5rem;
-  font-size: 1rem;
-  line-height: 1rem;
-  font-family: "Roboto Black";
-  font-weight: bold !important;
-  color: var(--dorkodu-smokegray-dim);
-  text-transform: uppercase;
-}
-
-.latest-notes-list-element>.title {
-  font-weight: bold;
-  margin: .7rem 0;
-  font-family: "Roboto Black";
-}
-
-.latest-notes-list-element>.stat {
-  color: var(--dorkodu-smokegray-darker);
-  font-weight: bold;
-  font-size: 1.15rem;
-  line-height: 1.5rem !important;
-}
-
-.latest-notes-list-element>.stat i {
-  font-size: 1.4rem;
-  color: var(--dorkodu-smokegray-dim);
-  line-height: 1.5rem !important;
-  margin-right: .5rem;
-}
-
-/* pagination list */
-
-.pagination-list {
-  width: 100%;
-  margin: 5rem 0 0;
-  text-align: center;
-}
-
-.pagination-list ul {
- display: inline-block;
-}
-
-.pagination-list > a {
-  display: inline-block;
-  font-size: 1.5rem;
-  padding: .5rem 0 0;
-  margin: 0;
-}
-
-.pagination-list > a i {
-  color: var(--dorkodu-smokegray-darker);
-  padding: .5rem;
-  margin: 0 1rem;
-  border-radius: .4rem;
-  font-size: 1.25rem;
-}
-
-.pagination-list > a i:hover,
-.pagination-list > a i:focus {
-  color: var(--dorkodu-smokegray-dim);
-  background-color: var(--dorkodu-smokegray-lighter);
-}
-
-.pagination-list ul a li {
-  display: inline-block;
-  padding: .5rem;
-  margin: 0 .25rem;
-  border-radius: .4rem;
-  font-family: "Roboto Black";
-  font-size: 1.25rem;
-  color: var(--dorkodu-smokegray-darkest);
-}
-
-.pagination-list ul a li:hover,
-.pagination-list ul a li:focus {
-  background-color: var(--dorkodu-smokegray-lighter);
-  color: var(--dorkodu-smokegray-night)
-}
-
-.pagination-list ul a li.active {
-  background-color: var(--dorkodu-smokegray);
-  color: var(--dorkodu-smokegray-black);
-  padding: .75rem;
-}
-
-/* NOTES */
-
-.note .note-tag {
-  width: 85%;
-  margin: 0 auto !important;
-  padding: .4rem 0;
-  text-align: left;
-}
-
-.note .note-tag span {
-  background-color: var(--dorkodu-smokegray-lighter);
-  border-radius: .4rem;
-  padding: .25rem .5rem;
-  font-size: 1.15rem;
-  font-weight: bold;
-  font-family: "Roboto Black";
-  color: var(--dorkodu-smokegray-dim);
-}
-
-.note .note-title {
-  width: 85%;
-  margin: 1rem auto;
-  font-size: 1.75rem;
-  text-align: left;
-}
-
-.note .note-stat {
-  color: var(--dorkodu-smokegray-darker);
-  font-weight: bold;
-  font-size: 1.25rem;
-  line-height: 1.5rem;
-  width: 85%;
-  margin: 0 auto;
-  padding: .2rem 0;
-}
-
-.note .note-stat i {
-  display: inline-block;
-  color: var(--dorkodu-smokegray-darkest);
-  font-size: 1.5rem;
-  font-weight: normal;
-  margin-right: .5rem;
 }
 
 /* WORK FEED */
@@ -1041,8 +875,8 @@ ul.list {
   display: inline-block;
   font-weight: bold;
   font-size: 1.4rem;
-  margin-bottom: .3rem;
-  border-bottom: .4rem solid var(--dorkodu-smokegray-light);
+  margin-bottom: .5rem;
+  border-bottom: .4rem solid var(--dorkodu-smokegray);
 }
 
 .footer-nav .footer-nav-column ul li {
