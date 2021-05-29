@@ -338,7 +338,7 @@ hr {
   overflow: hidden;
   background: transparent;
   border: 0;
-  border-bottom: .25rem solid var(--dorkodu-smokegray-lighter);
+  border-bottom: .25rem solid var(--dorkodu-smokegray-sky);
 }
 
 /* INTRO SECTION */
