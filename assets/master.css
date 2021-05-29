@@ -1077,7 +1077,6 @@ h1.motto {
   #content {
     width: 85%;
     margin: 0 auto;
-    margin-bottom: 5rem;
   }
 
   .header-division {
@@ -1212,10 +1211,6 @@ h1.motto {
   #content {
     width: 90%;
     margin: 0 auto;
-  }
-
-  #content {
-    margin-bottom: 5rem;
   }
 
   .intro-section.middle-note .intro-section__contents {
