@@ -382,8 +382,6 @@ hr {
 }
 
 .intro-section p {
-  display: inline-block;
-  width: 100%;
   margin-bottom: .5rem;
 }
 
@@ -490,7 +488,7 @@ article ul li h4 {
 
 article li p {
   margin: 0;
-  padding: .25rem .625rem !important;
+  padding: .4rem .7rem !important;
   font-weight: normal;
 }
 
@@ -1105,6 +1103,14 @@ h1.motto {
   .footer {
     height: 24rem;
   }
+
+  .footer-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px !important;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 @media (min-width: 900px) {
@@ -1179,11 +1185,6 @@ h1.motto {
   .set>p {
     padding: .5rem;
   }
-
-  .footer-wrapper {
-    width: 82%;
-    margin: 0 auto;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -1219,10 +1220,6 @@ h1.motto {
 
   .work-feed {
     grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .footer-wrapper {
-    width: 70%;
   }
 }
 
@@ -1278,16 +1275,20 @@ h1.motto {
     font-size: 20px;
   }
 
-  .footer-wrapper {
-    width: 60%;
-  }
-
   .list-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   .showcase-list li {
     width: 24%;
+  }
+
+  .footer-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 45rem !important;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -1300,10 +1301,6 @@ h1.motto {
 @media (min-width: 2200px) {
   html {
     font-size: 22px;
-  }
-
-  .footer-wrapper {
-    width: 60%;
   }
 
   .work-feed {
