@@ -1,0 +1,8 @@
+.dark-section {
+  background-color: #21272c;
+  color: #fff;
+}
+
+.dark-section > * {
+  color: inherit;
+}

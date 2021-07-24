@@ -1,0 +1,112 @@
+/* SET */
+
+.set h1,
+.set h2,
+.set h3,
+.set h4 {
+  padding: 0 .5rem;
+  margin: .75rem 0;
+  text-align: center;
+}
+
+.set h1 {
+  font-size: 1.875rem;
+}
+
+.set h2 {
+  font-size: 1.75rem;
+}
+
+.set h3 {
+  font-size: 1.5rem;
+}
+
+.set h4 {
+  font-size: 1.35rem;
+}
+
+.set h5 {
+  font-size: 1.15rem;
+}
+
+.set p {
+  padding: 1rem .5rem;
+  font-size: 1.2rem;
+  line-height: 140%;
+  text-align: left;
+}
+
+.set p a {
+  color: var(--blue-d1);
+  font-weight: 600;
+}
+
+.set p a:hover {
+  color: var(--blue-d4);
+  text-decoration: underline;
+}
+
+
+.image-set {
+  display: block;
+  text-align: center !important;
+  margin: 1rem auto;
+}
+
+.image-set img {
+  border: 0;
+  max-height: 20rem;
+}
+
+.image-set p {
+  font-size: 1.125rem;
+  margin: 0.5rem;
+  text-align: center;
+  color: var(--smokegray-l1);
+  padding: 0;
+  font-weight: 600;
+}
+
+@media (min-width: 200px) {
+  .image-set {
+    max-width: 90%;
+  }
+
+  .image-set.undraw {
+    max-width: 80%;
+  }
+
+  .image-set p {
+    font-size: 1.125rem;
+  }
+
+  .image-set img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 500px) {
+  .image-set {
+    max-width: 95%;
+  }
+
+  .image-set img {
+    border: 0;
+    border-radius: .3rem;
+  }
+}
+
+@media (min-width: 760px) {
+  .image-set {
+    max-width: 80%;
+    padding: .5rem;
+    margin: 1rem auto !important;
+  }
+}
+
+@media (min-width: 1000px) {
+  .set>p {
+    padding: .5rem;
+  }
+}

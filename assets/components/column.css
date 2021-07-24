@@ -1,0 +1,15 @@
+/*----------  Bi-column  ----------*/
+
+.bi-column {
+  padding: 1rem;
+}
+
+.bi-column > .column {
+  width: 100%;
+}
+
+@media (min-width: 1000px) {
+  .bi-column > .column {
+    width: 50%;
+  }
+}

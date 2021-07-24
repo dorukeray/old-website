@@ -1,0 +1,187 @@
+/* INTRO SECTION */
+
+.intro-section {
+  padding: 0 1rem 1rem;
+  max-width: 60rem;
+  margin: 0 auto 2rem;
+}
+
+.intro-section__contents .button {
+  float: left;
+  margin: .25rem auto;
+  margin-left: 0;
+  margin-right: 1rem;
+}
+
+.intro-section .intro-section__title {
+  margin: .5rem auto;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--smokegray-l3);
+}
+
+.intro-section .intro-section__tagline {
+  margin: 0 auto;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.intro-section .intro-section__statement {
+  color: var(--smokegray-d2);
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 0 auto;
+  line-height: 125%;
+}
+
+.intro-section .intro-section__cta {
+  margin: .75rem 0;
+}
+
+.intro-section p {
+  margin-bottom: .5rem;
+}
+
+.intro-section .intro-section__contents {
+  padding: 0 1rem;
+}
+
+/* INTRO SECTION - MIDDLE NOTE */
+
+.intro-section.middle-note .intro-section__contents {
+  width: 75%;
+  margin: 2rem auto;
+  float: none;
+  display: block;
+  text-align: left !important;
+  padding-right: .5rem;
+}
+
+.intro-section.middle-note.--wide .intro-section__contents {
+  width: 100%;
+}
+
+.intro-section.middle-note .intro-section__title,
+.intro-section.middle-note .intro-section__tagline,
+.intro-section.middle-note .intro-section__cta,
+.intro-section.middle-note .intro-section__statement {
+  text-align: left !important;
+}
+
+.intro-section.middle-note .intro-section__cta .typical-button {
+  float: none;
+}
+
+@media (min-width: 200px) {
+  .intro-section {
+    padding: 0 .5rem;
+    text-align: left !important;
+  }
+
+  .intro-section__contents {
+    max-width: 36rem;
+    margin: 0 auto;
+    padding-left: .75rem !important;
+    padding-right: .25rem !important;
+  }
+
+  .intro-section .image-set {
+    max-width: 25rem !important;
+    margin: 0 auto !important;
+    float: none !important;
+  }
+
+  .intro-section.middle-note .intro-section__contents {
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left !important;
+  }
+
+  .intro-section.middle-note .intro-section__title,
+  .intro-section.middle-note .intro-section__tagline,
+  .intro-section.middle-note .intro-section__cta,
+  .intro-section.middle-note .intro-section__statement {
+    text-align: left !important;
+  }
+
+  .intro-section .intro-section__title,
+  .intro-section .intro-section__tagline,
+  .intro-section .intro-section__statement {
+    text-align: left !important;
+  }
+}
+
+
+
+@media (min-width: 600px) {
+  .intro-section__contents {
+    padding-left: 2rem !important;
+  }
+
+  .intro-section.middle-note .intro-section__contents {
+    text-align: center !important;
+  }
+
+  .intro-section.middle-note .intro-section__title,
+  .intro-section.middle-note .intro-section__tagline,
+  .intro-section.middle-note .intro-section__cta,
+  .intro-section.middle-note .intro-section__statement {
+    text-align: center !important;
+  }
+
+  @media (min-width: 900px) {
+    .intro-section {
+      background-color: #fff;
+    }
+  }
+
+  @media (min-width: 1000px) {
+
+    .intro-section .intro-section__contents .intro-section__title,
+    .intro-section .intro-section__contents .intro-section__statement,
+    .intro-section .intro-section__contents .intro-section__tagline {
+      text-align: left;
+    }
+
+    .intro-section .intro-section__contents {
+      float: right;
+      width: 55% !important;
+      padding-right: 2rem;
+      padding-left: 0 !important;
+    }
+
+    .intro-section .image-set {
+      width: 45% !important;
+      float: left !important;
+      margin-top: 0;
+      padding-top: 0;
+      padding-left: 2rem;
+      max-width: 24rem;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .intro-section .image-set {
+      max-width: 26rem !important;
+    }
+    .intro-section .intro-section__contents {
+      float: right;
+      width: 55% !important;
+      padding-right: 2rem;
+      padding-left: 0 !important;
+    }
+  
+    .intro-section .image-set {
+      width: 45% !important;
+      float: left !important;
+      margin-top: 0;
+      padding-top: 0;
+      padding-left: 2rem;
+      max-width: 24rem;
+    }
+  }
+}

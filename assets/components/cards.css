@@ -1,0 +1,143 @@
+.card-deck {
+  display: grid;
+  padding: 1rem;
+  row-gap: 1rem;
+  column-gap: 1rem;
+  grid-gap: 1rem 1rem;
+  grid-auto-rows: minmax(6rem, auto);
+  grid-template-columns: 1fr;
+  max-width: 70rem;
+  margin: 1rem auto;
+}
+
+.card {
+  background-color: #fff;
+  border: .25rem solid var(--smokegray-l6);
+  padding: .75rem 1rem 1rem;
+  border-radius: 1rem;
+}
+
+.card-deck>.card {
+  max-width: 22rem;
+  margin: 0 auto;
+}
+
+.card-deck.--showcase>.card {
+  position: relative;
+  padding-bottom: 4rem !important;
+}
+
+.card p {
+  font-size: 1rem !important;
+  line-height: 1.4rem !important;
+  padding: 0 !important;
+}
+
+.card-deck.--showcase>.card>p {
+  position: relative;
+}
+
+.card>p.__tag {
+  display: inline-block;
+  padding: .2rem .5rem !important;
+  border-radius: .4rem;
+  font-weight: 900;
+  font-size: 1rem !important;
+  background-color: var(--smokegray-l6);
+  color: var(--smokegray);
+  clear: right;
+}
+
+.card-deck.--showcase>.card>.__links {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 1rem;
+  right: 1rem;
+  height: 3rem;
+  
+  margin-top: .75rem;
+  padding-top: .35rem;
+  border-top: .2rem solid var(--smokegray-l6);
+  text-align: right;
+}
+
+.card-deck.--showcase>.card>.__links>a {
+  display: inline-block;
+  margin-left: .5rem;
+}
+
+.card-deck.--showcase>.card>.__links>a>svg {
+  width: 2rem;
+  height: 2rem;
+  stroke: var(--smokegray-l1);
+}
+
+.card-deck.--showcase>.card>.__links>a:hover>svg {
+  stroke: var(--smokegray-d2);
+}
+
+.card>h1,
+.card>h2,
+.card>h3,
+.card>h4,
+.card>h5 {
+  font-size: 1.3rem !important;
+  line-height: 1.4rem !important;
+  font-weight: 900;
+  padding: 0 !important;
+  margin: .6rem 0 !important;
+  text-align: left !important;
+}
+
+@media (min-width: 900px) {
+  .card-deck {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-deck {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+/*----------  Read Next  ----------*/
+
+.read-next {
+  display: inline-block;
+  margin: .5rem 0;
+  margin-right: .5rem;
+  padding: .7rem 1.5rem .5rem 1rem;
+  border-radius: .6rem;
+  border: .2rem solid var(--smokegray-l5);
+  min-width: 12.5rem;
+  text-align: left;
+  color: var(--smokegray-d4) !important;
+}
+
+.read-next .__continue {
+  color: var(--smokegray-d2);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.read-next .__continue,
+.read-next .__title {
+  display: block;
+}
+
+.read-next .__title {
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+  margin: .25rem 0;
+  font-weight: 700;
+}
+
+.read-next:hover,
+.read-next:focus {
+  border-color: var(--smokegray-l3);
+  text-decoration: underline;
+}

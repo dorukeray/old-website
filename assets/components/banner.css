@@ -1,0 +1,32 @@
+.banner {
+  padding: 0 1rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.banner p {
+  text-align: center !important;
+  font-weight: 600;
+  color: inherit;
+}
+
+.banner a {
+  text-align: center !important;
+  font-weight: 600;
+  color: inherit !important;
+  text-decoration: underline;
+}
+
+.banner a::after {
+  content: " →";
+}
+
+.banner.--gray {
+  background-color: var(--smokegray-d2);
+  color: #fff;
+}
+
+.banner.--green {
+  background-color: var(--dorkodu-d1);
+  color: #fff;
+}
