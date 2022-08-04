@@ -1,0 +1,7 @@
+{
+  "name": "website",
+  "packageManager": "yarn@3.2.2",
+  "scripts": {
+    "prism": "yarn node ./usePrism.js"
+  }
+}

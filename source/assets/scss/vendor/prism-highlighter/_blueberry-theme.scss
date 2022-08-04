@@ -1,0 +1,263 @@
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Roboto Mono", "Courier New", monospace !important;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
+.hljs {
+  background: #242938
+}
+
+.hljs,
+.hljs-subst {
+  color: #d8dee9
+}
+
+.hljs-selector-tag {
+  color: #7390aa
+}
+
+.hljs-selector-id {
+  color: #8fbcbb;
+  font-weight: 700
+}
+
+.hljs-selector-attr,
+.hljs-selector-class {
+  color: #8fbcbb
+}
+
+.hljs-property,
+.hljs-selector-pseudo {
+  color: #e4f0fb
+}
+
+.hljs-addition {
+  background-color: rgba(163, 190, 140, .5)
+}
+
+.hljs-deletion {
+  background-color: rgba(191, 97, 106, .5)
+}
+
+.hljs-built_in,
+.hljs-class,
+.hljs-type {
+  color: #8fbcbb
+}
+
+.hljs-function,
+.hljs-function>.hljs-title,
+.hljs-title.hljs-function {
+  color: #e4f0fb
+}
+
+.hljs-keyword,
+.hljs-literal,
+.hljs-symbol {
+  color: #32AE85;
+}
+
+.hljs-number {
+  color: #9d8ae2
+}
+
+.hljs-regexp {
+  color: #ebcb8b
+}
+
+.hljs-string {
+  color: #92ccc4
+}
+
+.hljs-title {
+  color: #e4f0fb
+}
+
+.hljs-params {
+  color: #27E8A7
+}
+
+.hljs-bullet {
+  color: #7390aa
+}
+
+.hljs-code {
+  color: #8fbcbb
+}
+
+.hljs-emphasis {
+  font-style: italic
+}
+
+.hljs-formula {
+  color: #8fbcbb
+}
+
+.hljs-strong {
+  font-weight: 700
+}
+
+.hljs-link:hover {
+  text-decoration: underline
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #506477
+}
+
+.hljs-doctag {
+  color: #8fbcbb
+}
+
+.hljs-meta,
+.hljs-meta .hljs-keyword {
+  color: #7390aa;
+}
+
+.hljs-meta .hljs-string {
+  color: #92ccc4
+}
+
+.hljs-attr {
+  color: #32AE85
+}
+
+.hljs-attribute {
+  color: #d8dee9
+}
+
+.hljs-name {
+  color: #e4f0fb
+}
+
+.hljs-section {
+  color: #e4f0fb
+}
+
+.hljs-tag {
+  color: #7390aa
+}
+
+.hljs-template-variable,
+.hljs-variable {
+  color: #add7ff
+}
+
+.hljs-template-tag {
+  color: #5e81ac
+}
+
+.language-abnf .hljs-attribute {
+  color: #e4f0fb
+}
+
+.language-abnf .hljs-symbol {
+  color: #ebcb8b
+}
+
+.language-apache .hljs-attribute {
+  color: #e4f0fb
+}
+
+.language-apache .hljs-section {
+  color: #7390aa
+}
+
+.language-arduino .hljs-built_in {
+  color: #e4f0fb
+}
+
+.language-aspectj .hljs-meta {
+  color: #d08770
+}
+
+.language-aspectj>.hljs-title {
+  color: #e4f0fb
+}
+
+.language-bnf .hljs-attribute {
+  color: #8fbcbb
+}
+
+.language-clojure .hljs-name {
+  color: #e4f0fb
+}
+
+.language-clojure .hljs-symbol {
+  color: #ebcb8b
+}
+
+.language-coq .hljs-built_in {
+  color: #e4f0fb
+}
+
+.language-cpp .hljs-meta .hljs-string {
+  color: #92ccc4
+}
+
+.language-css .hljs-built_in {
+  color: #e4f0fb
+}
+
+.language-css .hljs-keyword {
+  color: #d08770
+}
+
+.language-diff .hljs-meta,
+.language-ebnf .hljs-attribute {
+  color: #8fbcbb
+}
+
+.language-glsl .hljs-built_in {
+  color: #e4f0fb
+}
+
+.language-groovy .hljs-meta:not(:first-child),
+.language-haxe .hljs-meta,
+.language-java .hljs-meta {
+  color: #d08770
+}
+
+.language-ldif .hljs-attribute {
+  color: #8fbcbb
+}
+
+.language-lisp .hljs-name,
+.language-lua .hljs-built_in,
+.language-moonscript .hljs-built_in,
+.language-nginx .hljs-attribute {
+  color: #e4f0fb
+}
+
+.language-nginx .hljs-section {
+  color: #5e81ac
+}
+
+.language-pf .hljs-built_in,
+.language-processing .hljs-built_in {
+  color: #e4f0fb
+}
+
+.language-scss .hljs-keyword,
+.language-stylus .hljs-keyword {
+  color: #7390aa
+}
+
+.language-swift .hljs-meta {
+  color: #d08770
+}
+
+.language-vim .hljs-built_in {
+  color: #e4f0fb;
+  font-style: italic
+}
+
+.language-yaml .hljs-meta {
+  color: #d08770
+}
