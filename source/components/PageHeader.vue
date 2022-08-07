@@ -1,16 +1,34 @@
+<script lang="ts" setup>
+import {
+  HomeIcon,
+  ToolsIcon,
+} from "vue-tabler-icons";
+
+</script>
 <template>
   <div>
     <header class="header">
       <div class="__container">
         <a class="__logo" href="/">
-          <img src="/images/dorkodu.svg" title="prism logo" />
+          <img src="/images/dorukeray-M.png" title="doruk eray" />
         </a>
         <nav class="__nav">
-          <NuxtLink to="/" rel="dofollow">home</NuxtLink>
-          <NuxtLink to="/about" rel="dofollow">about</NuxtLink>
-          <NuxtLink to="/manifesto" rel="dofollow">manifesto</NuxtLink>
-          <NuxtLink to="/jobs" rel="dofollow">work</NuxtLink>
-          <NuxtLink to="/investor" rel="dofollow">be an investor!</NuxtLink>
+          <NuxtLink to="/" rel="dofollow">
+            <img src="https://twemoji.maxcdn.com/v/latest/svg/1f3e1.svg" width="32" height="32">
+            <span>home</span>
+          </NuxtLink>
+          <NuxtLink to="/" rel="dofollow">
+            <img src="https://twemoji.maxcdn.com/v/latest/svg/1f3e1.svg" width="32" height="32">
+            <span>home</span>
+          </NuxtLink>
+          <NuxtLink to="/" rel="dofollow">
+            <img src="https://twemoji.maxcdn.com/v/latest/svg/1f3e1.svg" width="32" height="32">
+            <span>home</span>
+          </NuxtLink>
+          <NuxtLink to="/" rel="dofollow">
+            <img src="https://twemoji.maxcdn.com/v/latest/svg/1f6ac.svg" width="32" height="32">
+            <span>work</span>
+          </NuxtLink>
         </nav>
       </div>
     </header>
@@ -48,25 +66,37 @@
     font-size: 1rem;
     line-height: 1.5rem;
     flex-wrap: wrap;
-    gap: .75rem;
-    justify-content: center;
+    gap: 1.5rem;
+    justify-content: flex-end;
     align-items: center;
 
     a {
-      padding: .1rem .3rem 0;
-      border-radius: 2px;
-      border-bottom: .36rem solid $reference-color-gray-95;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: .5rem;
+
+      border-radius: 6px;
       line-height: 1.25;
       font-size: 1.3rem;
       font-weight: 600;
-      color: $reference-color-gray-10;
+      color: $reference-color-gray-60;
       text-decoration: none;
 
       &:hover {
-        color: $reference-color-gray-50;
-        border-bottom-color: $reference-color-gray-90;
-        border-style: solid;
-        border-width: 0 0 .36rem 0;
+        background-color: $reference-color-gray-95;
+        color: $reference-color-gray-10;
+        text-decoration: underline;
+
+        svg {
+          color: $reference-color-gray-50;
+        }
+      }
+
+      svg {
+        color: $reference-color-gray-70;
+        width: 2.5rem;
+        height: 2.5rem;
       }
     }
   }

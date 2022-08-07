@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <div class="picture">
-      <img :src="source" :alt="title" :title="title" />
-      <p v-if="title !== ``">{{ title }}</p>
-    </div>
+  <div class="picture">
+    <img :src="source" :alt="title" :title="title" />
+    <p v-if="title !== ``">{{ title }}</p>
   </div>
 </template>
 
@@ -29,7 +27,7 @@ if (!title) title = "";
     border: 0;
     max-height: 24rem;
     height: auto;
-    border-radius: .5rem;
+    border-radius: $system-layout-curve;
   }
 
   p {
