@@ -3,18 +3,9 @@ import {
   BrandTelegramIcon,
   BrandTwitterIcon,
   BrandGithubIcon,
-  BrandDiscordIcon,
   BrandInstagramIcon,
   MailOpenedIcon,
   ToolsIcon,
-  CpuIcon,
-  BlurIcon,
-  Flag3Icon,
-  PeaceIcon,
-  BriefcaseIcon,
-  BuildingBankIcon,
-  CodeIcon,
-  SchemaIcon
 } from "vue-tabler-icons";
 
 definePageMeta({
@@ -82,63 +73,93 @@ const hero = {
           <h3 class="section-title">📝 my story</h3>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam impedit tempora minima ipsum corrupti
             odio totam, eos laudantium quod illo?</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum placeat iste explicabo. Voluptatibus quaerat
+            iure, optio minima omnis mollitia doloremque natus vitae ipsa perferendis dolore reprehenderit doloribus
+            necessitatibus quasi itaque.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque possimus, recusandae inventore eligendi amet
+            expedita illum totam repudiandae aspernatur. Quam harum repellendus nihil repudiandae hic?</p>
           <div class="button-container" style="padding: 0; margin: 0;">
-            <Button>hello</Button>
+            <Button type="tonal">hello</Button>
           </div>
 
         </article>
       </template>
       <template #side>
-        <article>
-          <h3>🛠️ my work</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam impedit tempora minima ipsum corrupti
-            odio totam, eos laudantium quod illo?</p>
-        </article>
+        <ul class="icon-list">
+          <li>
+            <BrandTwitterIcon />
+            <a href="https://twitter.com/d0rukeray">twitter</a>
+          </li>
+          <li>
+            <BrandTelegramIcon />
+            <a href="https://t.me/dorukeray">telegram</a>
+          </li>
+          <li>
+            <BrandInstagramIcon />
+            <a href="https://instagram.com/d0rukeray">instagram</a>
+          </li>
+          <li>
+            <BrandGithubIcon />
+            <a href="https://github.com/dorukeray">github</a>
+          </li>
+          <li>
+            <MailOpenedIcon />
+            <a href="mailto:doruk@dorkodu.com">email</a>
+          </li>
+        </ul>
       </template>
     </Showcase>
-    <article>
-      <h2>🤙 get in touch</h2>
-      <ul class="icon-list">
-        <li>
-          <BrandTwitterIcon />
-          <a href="https://twitter.com/d0rukeray">@d0rukeray</a>
-        </li>
-        <li>
-          <BrandTelegramIcon />
-          <a href="https://t.me/dorukeray">@dorukeray</a>
-        </li>
-        <li>
-          <BrandInstagramIcon />
-          <a href="https://instagram.com/d0rukeray">@d0rukeray</a>
-        </li>
-        <li>
-          <BrandGithubIcon />
-          <a href="https://github.com/dorukeray">@dorukeray</a>
-        </li>
-        <li>
-          <MailOpenedIcon />
-          <a href="mailto:doruk@dorkodu.com">doruk@dorkodu.com</a>
-        </li>
-      </ul>
-    </article>
 
     <article>
-      <h2>🛠️ mywork</h2>
+      <h2>🛠️ my work</h2>
     </article>
+
+    <Showcase>
+      <template #main>
+        <DescriptiveList title="lorem ipsum" message="lorem ipsum dolor sit amet consri.">
+          <DescriptiveItem title="lorem ipsum"
+            description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, nobis.">
+            <MailOpenedIcon class="badge" />
+          </DescriptiveItem>
+          <DescriptiveItem title="lorem ipsum"
+            description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, nobis.">
+            <MailOpenedIcon class="badge" />
+          </DescriptiveItem>
+          <DescriptiveItem title="lorem ipsum"
+            description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, nobis.">
+            <MailOpenedIcon class="badge" />
+          </DescriptiveItem>
+          <DescriptiveItem title="lorem ipsum"
+            description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, nobis.">
+            <MailOpenedIcon class="badge" />
+          </DescriptiveItem>
+        </DescriptiveList>
+      </template>
+      <template #side>
+        <Picture source="/images/doruk.png" title="merhaba" />
+      </template>
+    </Showcase>
+
+    <Break />
+    <Break />
+
+    <Showcase>
+      <template #main></template>
+      <template #side></template>
+    </Showcase>
 
     <Showcase>
       <template #main>
         <Hero title="my skillset" tagline="product design, software engineering, graphics, marketing."
           statement="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum doloremque pariatur atque molestiae error autem?">
           <template #head>
-            <ToolsIcon class="badge" />&nbsp;
-            <ToolsIcon class="badge" />&nbsp;
-            <ToolsIcon class="badge" />&nbsp;
+            <ToolsIcon class="badge" />
           </template>
         </Hero>
       </template>
       <template #side>
         <article>
+          <h4>👨‍💻&nbsp;&nbsp;career</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quos expedita, sit debitis animi at
             sapiente consectetur aliquam cumque numquam deleniti eius tenetur, ipsum in aut quam accusamus. Dolore non
             et delectus id, harum itaque laboriosam saepe deleniti incidunt consectetur vel dicta repudiandae adipisci
