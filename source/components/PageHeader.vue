@@ -10,7 +10,7 @@ import {
     <header class="header">
       <div class="__container">
         <a class="__logo" href="/">
-          <img src="/images/dorukeray-M.png" title="doruk eray" />
+          <img src="/images/dorukeray.png" title="doruk eray" />
         </a>
         <nav class="__nav">
           <NuxtLink to="/" rel="dofollow">

@@ -5,6 +5,8 @@ import {
   BrandGithubIcon,
   BrandInstagramIcon,
   MailOpenedIcon,
+  ManIcon,
+  UserIcon,
   ToolsIcon,
 } from "vue-tabler-icons";
 
@@ -17,7 +19,7 @@ definePageMeta({
 const hero = {
   title: "hello!",
   tagline: "i'm doruk eray.",
-  statement: `founder @ dorkodu, product polymath, craftsman, forerunner of idealism, seeker of meaning.`,
+  statement: `founder, product polymath, craftsman, forerunner of idealism, progressive lunatic, seeker of meaning.`,
   picture: {
     source: "/images/doruk--green.png",
     title: "pixelated, natively digital 🤩"
@@ -31,6 +33,8 @@ const hero = {
       <template #main>
         <Hero :title="hero.title" :tagline="hero.tagline" :statement="hero.statement" style="margin-top: 0 !important;">
           <template #content>
+            <p style="font-size: 1.15rem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
+              exercitationem eius. Dolorum incidunt consequatur modi expedita ipsum sed adipisci recusandae?</p>
           </template>
         </Hero>
       </template>
@@ -81,7 +85,6 @@ const hero = {
           <div class="button-container" style="padding: 0; margin: 0;">
             <Button type="tonal">hello</Button>
           </div>
-
         </article>
       </template>
       <template #side>
@@ -111,7 +114,38 @@ const hero = {
     </Showcase>
 
     <article>
+      <h2>🌰 in a nutshell</h2>
+      <SectionRuler />
+    </article>
+
+    <Showcase>
+      <template #main>
+        <DescriptiveList title="questions?" message="i like asking questions, a result of my curious nature.">
+          <DescriptiveItem title="who?"
+            description="thinker, leader, artist, inventor, polymath, idol, revolutionist, entrepreneur.">
+            <ManIcon class="badge" />
+          </DescriptiveItem>
+          <DescriptiveItem title="what i love to do?"
+            description="think, design, feel, create, build, socialize, tell, learn.">
+            <MailOpenedIcon class="badge" />
+          </DescriptiveItem>
+          <DescriptiveItem title="for whom?" description="me, and everyone. the humanity.">
+            <MailOpenedIcon class="badge" />
+          </DescriptiveItem>
+          <DescriptiveItem title="why?"
+            description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, nobis.">
+            <MailOpenedIcon class="badge" />
+          </DescriptiveItem>
+        </DescriptiveList>
+      </template>
+      <template #side>
+        <Picture source="/images/doruk.png" title="merhaba" />
+      </template>
+    </Showcase>
+
+    <article>
       <h2>🛠️ my work</h2>
+      <SectionRuler />
     </article>
 
     <Showcase>
