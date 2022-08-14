@@ -8,6 +8,10 @@ useHead({
   ],
   bodyAttrs: {
     class: 'body'
+  },
+  script: {
+    src: "https://twemoji.maxcdn.com/v/latest/twemoji.min.js",
+    crossorigin: "anonymous"
   }
 })
 </script>
