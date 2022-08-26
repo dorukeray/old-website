@@ -5,26 +5,47 @@ import {
   BrandGithubIcon,
   BrandInstagramIcon,
   MailOpenedIcon,
+  BrandDiscordIcon,
   ManIcon,
+  CodeIcon,
   UserIcon,
+  FriendsIcon,
+  HeartIcon,
+  CertificateIcon,
+  QuestionMarkIcon,
+  HeartHandshakeIcon,
+  PolaroidIcon,
   ToolsIcon,
 } from "vue-tabler-icons";
 
-definePageMeta({
-  title: "sage",
-  tagline: "the marvelous data exchange protocol for APIs",
-  description: `Sage aims to simplify the communication for data interactions between different layers of software, and designed especially for APIs.`,
-})
 
 const hero = {
   title: "hello!",
   tagline: "i'm doruk eray.",
-  statement: `founder, product polymath, craftsman, forerunner of idealism, progressive lunatic, seeker of meaning.`,
+  statement: `founder, product polymath, craftsman, forerunner of idealism, progressive, lunatic, seeker of meaning.`,
   picture: {
     source: "/images/doruk--green.png",
     title: "pixelated, natively digital 🤩"
   },
 };
+
+let dorukEray = {
+  token: "jun",
+  value: "12",
+  title: "hello world",
+  content: "lorem ipsum dolar lorem ipsum dolar lorem ipsum dolar.",
+  person: {
+    name: "doruk eray",
+    avatar: "/images/doruk--green.png",
+    role: "founder"
+  }
+};
+
+definePageMeta({
+  title: "welcome - doruk eray",
+  description: `founder, product polymath, lunatic.`,
+});
+
 </script>
 
 <template>
@@ -33,8 +54,8 @@ const hero = {
       <template #main>
         <Hero :title="hero.title" :tagline="hero.tagline" :statement="hero.statement" style="margin-top: 0 !important;">
           <template #content>
-            <p style="font-size: 1.15rem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
-              exercitationem eius. Dolorum incidunt consequatur modi expedita ipsum sed adipisci recusandae?</p>
+            <p class="hashtag">#software #design #economics #art</p>
+            <p style="font-size: 1.35rem">🤩👑💸💻🔗💿📚🎨🎭🎶🎙️🎸🥁🧮🗺🗳🏛🗽🍦</p>
           </template>
         </Hero>
       </template>
@@ -46,162 +67,84 @@ const hero = {
     <article>
       <h2>hi :)</h2>
       <h3 class="section-title">who i am?</h3>
-      <p>my life purpose to <i>liberate the human with meaningful technology</i>, build the dream commonwealth of a
-        heaven, but
-        on earth. yep. that's my purpose 🤩</p>
-      <h4>why?</h4>
-      <SectionRuler />
-      <p class="dorkodian-gradient">
-        i want to live a free, happy and meaningful life. a humane life that everyone deserves.
-        i believe this is a fundemental human right: a livable world & a life worth living.
-        so we need to come together, and create that utopic life for everyone.
-      </p>
-      <h4>how?</h4>
       <p>
-        my life purpose is to achieve remarkable things that will change the destiny of human civilisation. In this
-        long journey, my first step is purifying and liberating the human knowledge to make it open, useful and
-        meaningful for everyone. So, let's begin...
+        my life purpose to <b>liberate the human with meaningful technology</b>, build the dream commonwealth of a
+        heaven, but on earth. yep. that's my purpose 🤩
       </p>
-      <Quote
-        message="I learned this, at least, by my experiment: that if one advances confidently in the direction of his dreams, and endeavors to live the life which he has imagined, he will meet with a success unexpected in common hours."
-        owner="henry david thoreau" />
-
     </article>
     <article>
-      <h2>about</h2>
+      <h2>🌰&nbsp; in a nutshell</h2>
       <SectionRuler />
-    </article>
-    <Showcase>
-      <template #main>
-        <article>
-          <h3 class="section-title">📝 my story</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam impedit tempora minima ipsum corrupti
-            odio totam, eos laudantium quod illo?</p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum placeat iste explicabo. Voluptatibus quaerat
-            iure, optio minima omnis mollitia doloremque natus vitae ipsa perferendis dolore reprehenderit doloribus
-            necessitatibus quasi itaque.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque possimus, recusandae inventore eligendi amet
-            expedita illum totam repudiandae aspernatur. Quam harum repellendus nihil repudiandae hic?</p>
-          <div class="button-container" style="padding: 0; margin: 0;">
-            <Button type="tonal">hello</Button>
-          </div>
-        </article>
-      </template>
-      <template #side>
-        <ul class="icon-list">
+      <Bulletpoint icon="👨🏻‍💻">
+        <p>i have <b>8+</b> years of rich experience in <b>software</b>, since i was <b>10</b>!</p>
+        <p>my focus is on <b>web</b> platform, for <b>product, front-end, ui/ux</b>.</p>
+        <p>i am fluent in acronyms 😜 <b>javascript, html + css, php</b>.</p>
+      </Bulletpoint>
+      <Bulletpoint icon="🏫">
+        <p>i study at <b>vefa lisesi</b>, a historical high school in istanbul 🇹🇷</p>
+      </Bulletpoint>
+      <Bulletpoint icon="👨🏻‍🏫">
+        <p><b>i'm proudly a self-taught. this is my superpower.</b> i love constructive critical thinking about every
+          aspect of life, and learning wonderful things. reading books, blogs, papers; listening to wise people on
+          podcasts; watching influential movies.</p>
+      </Bulletpoint>
+      <Bulletpoint icon="📚">
+        <p>my interests of work are <b>
+            gamification,
+            economics,
+            web 3.0,
+            knowledge theory,
+            human nature,
+            industrial design</b>
+          and
+          <b>artificial intelligence</b>
+          nowadays.
+        </p>
+      </Bulletpoint>
+      <Bulletpoint icon="🧩">
+        <p>my hobbies reflect my whimsical artist nature 😜</p>
+        <ul style="margin: .25rem .5rem !important;">
+          <li><b>🖼 pixel art</b> — less is more.</li>
+          <li><b>🎶 music</b> — singer, guitar 🎙️🎸</li>
+          <li><b>✍🏻 drawing</b> — design, graphics, print.</li>
+          <li><b>🎮 games</b> — strategy/role-play.</li>
+          <li><b>🛠️ tinkering</b> — my little inventions.</li>
+          <li><b>🏛️ philosophy</b> — thinking, reading, writing.</li>
+          <li><b>🏕️ trekking</b> — trees, sky, nature.</li>
+        </ul>
+      </Bulletpoint>
+      <Bulletpoint icon="🗽">
+        <p>i love <b>open source</b>, the mission of contributing to a common good.</p>
+        <p>
+          i created some projects for <i>better developer experience</i> and <i>state-of-the-art products</i>.
+          see <a href="http://libre.dorkodu.com" target="_blank" rel="noopener noreferrer">dorkodu libre</a>
+          and <a href="http://github.com/dorukeray" target="_blank" rel="noopener noreferrer">my github page</a>.
+        </p>
+      </Bulletpoint>
+      <Bulletpoint icon="🌍">
+        <p>it's part of my mission to help save the destiny of human civilization by contributing to areas like
+          <b>agriculture, water, green energy, space, education, genetics</b> and <b>ai</b>.
+        </p>
+      </Bulletpoint>
+      <SectionRuler />
+      <Bulletpoint icon="🔗">
+        <p style="border-bottom:">here are some useful links for you!</p>
+        <ul style="margin: .25rem .5rem !important;">
           <li>
-            <BrandTwitterIcon />
-            <a href="https://twitter.com/d0rukeray">twitter</a>
+            <p><b>🐦</b>&nbsp; i tweet often, <a href="https://twitter.com/d0rukeray">follow me on twitter</a>.</p>
           </li>
           <li>
-            <BrandTelegramIcon />
-            <a href="https://t.me/dorukeray">telegram</a>
+            <p><b>📖</b>&nbsp; if you are curious, <a href="/story">read my story</a>.</p>
           </li>
           <li>
-            <BrandInstagramIcon />
-            <a href="https://instagram.com/d0rukeray">instagram</a>
+            <p><b>🙏🏻</b>&nbsp; see my <a href="/thanks">thanks</a> page for inspirations & attribution.</p>
           </li>
           <li>
-            <BrandGithubIcon />
-            <a href="https://github.com/dorukeray">github</a>
-          </li>
-          <li>
-            <MailOpenedIcon />
-            <a href="mailto:doruk@dorkodu.com">email</a>
+            <p><b>💾</b>&nbsp; see <a href="/work">my work</a> page for my portfolio & resume.</p>
           </li>
         </ul>
-      </template>
-    </Showcase>
-
-    <article>
-      <h2>🌰 in a nutshell</h2>
-      <SectionRuler />
+      </Bulletpoint>
     </article>
-
-    <Showcase>
-      <template #main>
-        <DescriptiveList title="questions?" message="i like asking questions, a result of my curious nature.">
-          <DescriptiveItem title="who?"
-            description="thinker, leader, artist, inventor, polymath, idol, revolutionist, entrepreneur.">
-            <ManIcon class="badge" />
-          </DescriptiveItem>
-          <DescriptiveItem title="what i love to do?"
-            description="think, design, feel, create, build, socialize, tell, learn.">
-            <MailOpenedIcon class="badge" />
-          </DescriptiveItem>
-          <DescriptiveItem title="for whom?" description="me, and everyone. the humanity.">
-            <MailOpenedIcon class="badge" />
-          </DescriptiveItem>
-          <DescriptiveItem title="why?"
-            description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, nobis.">
-            <MailOpenedIcon class="badge" />
-          </DescriptiveItem>
-        </DescriptiveList>
-      </template>
-      <template #side>
-        <Picture source="/images/doruk.png" title="merhaba" />
-      </template>
-    </Showcase>
-
-    <article>
-      <h2>🛠️ my work</h2>
-      <SectionRuler />
-    </article>
-
-    <Showcase>
-      <template #main>
-        <DescriptiveList title="lorem ipsum" message="lorem ipsum dolor sit amet consri.">
-          <DescriptiveItem title="lorem ipsum"
-            description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, nobis.">
-            <MailOpenedIcon class="badge" />
-          </DescriptiveItem>
-          <DescriptiveItem title="lorem ipsum"
-            description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, nobis.">
-            <MailOpenedIcon class="badge" />
-          </DescriptiveItem>
-          <DescriptiveItem title="lorem ipsum"
-            description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, nobis.">
-            <MailOpenedIcon class="badge" />
-          </DescriptiveItem>
-          <DescriptiveItem title="lorem ipsum"
-            description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, nobis.">
-            <MailOpenedIcon class="badge" />
-          </DescriptiveItem>
-        </DescriptiveList>
-      </template>
-      <template #side>
-        <Picture source="/images/doruk.png" title="merhaba" />
-      </template>
-    </Showcase>
-
-    <Break />
-    <Break />
-
-    <Showcase>
-      <template #main></template>
-      <template #side></template>
-    </Showcase>
-
-    <Showcase>
-      <template #main>
-        <Hero title="my skillset" tagline="product design, software engineering, graphics, marketing."
-          statement="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum doloremque pariatur atque molestiae error autem?">
-          <template #head>
-            <ToolsIcon class="badge" />
-          </template>
-        </Hero>
-      </template>
-      <template #side>
-        <article>
-          <h4>👨‍💻&nbsp;&nbsp;career</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quos expedita, sit debitis animi at
-            sapiente consectetur aliquam cumque numquam deleniti eius tenetur, ipsum in aut quam accusamus. Dolore non
-            et delectus id, harum itaque laboriosam saepe deleniti incidunt consectetur vel dicta repudiandae adipisci
-            repellendus cupiditate dolores aspernatur quod! Ipsam?</p>
-        </article>
-      </template>
-    </Showcase>
-    <Break />
   </main>
 </template>
 
@@ -211,6 +154,14 @@ const hero = {
 .dorkodian-gradient {
   border-radius: .5rem;
   background-image: linear-gradient(45deg, #33cc40 20%, #7cde84 40%, #f8e4a0 70%, #ffffff 95%);
+}
+
+.hashtag {
+  color: $reference-color-blue-60;
+  font-weight: 500;
+  font-size: 1.15rem;
+  line-height: 1.65rem;
+  margin-bottom: .5rem !important;
 }
 
 .Showcase {
@@ -233,11 +184,13 @@ const hero = {
   }
 }
 
+
 .icon-list {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   gap: .5rem;
   padding-left: 1rem;
+  margin: 0 auto;
 
   li {
     display: flex;
@@ -249,18 +202,35 @@ const hero = {
     color: $reference-color-gray-70;
     width: 2.25rem;
     height: 2.25rem;
-    stroke-width: 2.5;
+    stroke-width: 2.25;
   }
 
   a {
     font-size: 1.25rem;
-    color: $reference-color-blue-60;
+    color: $reference-color-blue-50;
     font-weight: 500;
 
     &:hover {
       color: $reference-color-blue-40;
       text-decoration: underline;
     }
+  }
+}
+
+@media (min-width: 900px) {
+  .icon-list {
+    margin: 0;
+  }
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: .35rem;
+
+  li {
+    font-size: 1.15rem !important;
+
   }
 }
 </style>
