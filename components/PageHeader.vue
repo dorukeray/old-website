@@ -10,7 +10,7 @@ import {
     <header class="header">
       <div class="__container">
         <a class="__logo" href="/">
-          <img src="/images/dorukeray.png" title="doruk eray" />
+          <img src="/images/dorukeray-M.png" title="doruk eray" />
         </a>
         <nav class="__nav">
           <NuxtLink to="/" rel="dofollow">
@@ -18,15 +18,11 @@ import {
             <span>home</span>
           </NuxtLink>
           <NuxtLink to="/" rel="dofollow">
-            <img src="https://twemoji.maxcdn.com/v/latest/svg/1f3e1.svg" width="32" height="32">
-            <span>home</span>
+            <img src="https://twemoji.maxcdn.com/v/latest/svg/1f4d6.svg" width="32" height="32">
+            <span>story</span>
           </NuxtLink>
           <NuxtLink to="/" rel="dofollow">
-            <img src="https://twemoji.maxcdn.com/v/latest/svg/1f3e1.svg" width="32" height="32">
-            <span>home</span>
-          </NuxtLink>
-          <NuxtLink to="/" rel="dofollow">
-            <img src="https://twemoji.maxcdn.com/v/latest/svg/1f6ac.svg" width="32" height="32">
+            <img src="https://twemoji.maxcdn.com/v/latest/svg/1f4be.svg" width="32" height="32">
             <span>work</span>
           </NuxtLink>
         </nav>
@@ -64,10 +60,10 @@ import {
   .__nav {
     display: flex;
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.25rem;
     flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: flex-end;
+    gap: 1rem;
+    justify-content: center;
     align-items: center;
 
     a {
@@ -76,16 +72,16 @@ import {
       align-items: center;
       padding: .5rem;
 
-      border-radius: 6px;
-      line-height: 1.25;
-      font-size: 1.3rem;
+      border-radius: .5rem;
+      line-height: 1.5;
+      font-size: 1.25rem;
       font-weight: 600;
-      color: $reference-color-gray-60;
+      color: $reference-color-gray-70;
       text-decoration: none;
 
       &:hover {
-        background-color: $reference-color-gray-95;
-        color: $reference-color-gray-10;
+        background-color: $reference-color-green-90;
+        color: $reference-color-green-40;
         text-decoration: underline;
 
         svg {
@@ -120,8 +116,13 @@ import {
       gap: 3rem;
     }
 
+    .__logo img {
+      width: 25rem;
+    }
+
     .__nav {
-      width: calc(100% - 24rem);
+      width: calc(100% - 25rem);
+      gap: 1.5rem;
     }
   }
 }

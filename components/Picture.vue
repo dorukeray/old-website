@@ -1,19 +1,16 @@
+<script setup lang="ts">
+let { source, title } = defineProps<{
+  source: string;
+  title?: string;
+}>();
+</script>
+
 <template>
   <div class="picture">
     <img :src="source" :alt="title" :title="title" />
     <p v-if="title !== ``">{{ title }}</p>
   </div>
 </template>
-
-<script setup lang="ts">
-
-let { source, title } = defineProps<{
-  source: string;
-  title?: string;
-}>();
-
-if (!title) title = "";
-</script>
 
 <style lang="scss" scoped>
 @import "scss/styles.scss";

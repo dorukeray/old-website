@@ -63,7 +63,7 @@ const attrs = (center)
     flex-direction: column;
     align-items: center;
     justify-content: left;
-    gap: .5rem;
+    gap: .25rem;
 
     max-width: 36rem;
     margin: 0 auto;
@@ -106,10 +106,6 @@ const attrs = (center)
 
   p {
     margin-bottom: .5rem;
-  }
-
-  .__more {
-    margin-top: .25rem;
   }
 }
 
