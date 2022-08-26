@@ -29,18 +29,6 @@ const hero = {
   },
 };
 
-let dorukEray = {
-  token: "jun",
-  value: "12",
-  title: "hello world",
-  content: "lorem ipsum dolar lorem ipsum dolar lorem ipsum dolar.",
-  person: {
-    name: "doruk eray",
-    avatar: "/images/doruk--green.png",
-    role: "founder"
-  }
-};
-
 definePageMeta({
   title: "welcome - doruk eray",
   description: `founder, product polymath, lunatic.`,
@@ -56,6 +44,10 @@ definePageMeta({
           <template #content>
             <p class="hashtag">#software #design #economics #art</p>
             <p style="font-size: 1.35rem">🤩👑💸💻🔗💿📚🎨🎭🎶🎙️🎸🥁🧮🗺🗳🏛🗽🍦</p>
+            <div class="button-container">
+              <Button type="fill" link="/story">read my story!</Button>
+              <Button type="tonal" link="/work">work?</Button>
+            </div>
           </template>
         </Hero>
       </template>
@@ -78,7 +70,7 @@ definePageMeta({
       <Bulletpoint icon="👨🏻‍💻">
         <p>i have <b>8+</b> years of rich experience in <b>software</b>, since i was <b>10</b>!</p>
         <p>my focus is on <b>web</b> platform, for <b>product, front-end, ui/ux</b>.</p>
-        <p>i am fluent in acronyms 😜 <b>javascript, html + css, php</b>.</p>
+        <p>i am fluent in acronyms 🧠 <b>javascript, html + css, php</b>.</p>
       </Bulletpoint>
       <Bulletpoint icon="🏫">
         <p>i study at <b>vefa lisesi</b>, a historical high school in istanbul 🇹🇷</p>

@@ -1,10 +1,10 @@
 <script setup>
 useHead({
-  titleTemplate: (title) => `${title} - prism`,
+  titleTemplate: (title) => title,
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
   charset: 'utf-8',
   meta: [
-    { name: 'description', content: `prism: dorkodu's styleguide` }
+    { name: 'description', content: `doruk eray's personal website.` }
   ],
   bodyAttrs: {
     class: 'body'
