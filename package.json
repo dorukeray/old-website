@@ -23,5 +23,6 @@
     "sass-loader": "^13.0.2",
     "twemoji": "^14.0.2",
     "vue-tabler-icons": "^2.8.0"
-  }
+  },
+  "packageManager": "yarn@3.2.3"
 }

@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     'images': 'public/images',
     'scss': 'assets/scss',
   },
+  target: 'static', // default is 'server'
   css: [
     'scss/styles.scss',
   ],
