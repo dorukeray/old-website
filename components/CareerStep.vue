@@ -2,8 +2,8 @@
   <div class="CareerStep">
     <p v-if="time" class="time">{{ time }}</p>
     <p>
-      <span v-if="time" class="topic">{{ topic }}</span>
-      <span v-if="time" class="location">{{ location }}</span>
+      <span v-if="title" class="title">{{ title }}</span>
+      <span v-if="location" class="location">{{ location }}</span>
     </p>
     <p v-if="description">{{ description }}</p>
   </div>
@@ -48,7 +48,5 @@ const { time, title, location, description }
     font-weight: 500;
     color: $reference-color-gray-60;
   }
-
-  .description {}
 }
 </style>
