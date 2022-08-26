@@ -9,17 +9,19 @@ useHead({
   bodyAttrs: {
     class: 'body'
   },
-  script: {
+  script: [{
     src: "https://twemoji.maxcdn.com/v/latest/twemoji.min.js",
     crossorigin: "anonymous"
-  }
+  }]
 })
 </script>
+
 <template>
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
 </template>
+
 <style lang="scss">
 @import "scss/styles.scss";
 

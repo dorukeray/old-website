@@ -6,7 +6,16 @@
 
   background-color: $system-color-primary-80;
   color: $system-color-primary-40;
-  stroke-width: 2;
+  stroke-width: 2.25;
+}
+
+.symbol {
+  padding: .25rem !important;
+  height: 3rem !important;
+  width: 3rem !important;
+
+  color: $system-color-neutral-70;
+  stroke-width: 2.25;
 }
 
 article {
