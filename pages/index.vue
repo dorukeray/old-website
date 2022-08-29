@@ -57,15 +57,16 @@ definePageMeta({
         <b>liberate the human with meaningful technology</b>,
         build the utopian dream of heaven on earth, a free and happy life experience, for everyone.
       </p>
-      <p>— yep. this is why i wake up every day.</p>
+      <p>— yep. this is why i wake up every day. 🌅</p>
     </article>
 
     <article>
       <h2>🌰&nbsp; in a nutshell</h2>
       <SectionRuler />
       <Bulletpoint icon="🍃">
-        <p>i'm the <b>founder & chief</b> of <a href="https://dorkodu.com">dorkodu</a>,
-          a humane technology company where i follow my purpose and create masterpieces.
+        <p>
+          i'm the <b>founder & chief</b> of <a href="https://dorkodu.com">dorkodu</a>,
+          a humane technology company where we create passionate products, pursuing our mission together.
         </p>
       </Bulletpoint>
       <Bulletpoint icon="👨🏻‍💻">
@@ -97,7 +98,7 @@ definePageMeta({
         <p>my hobbies reflect my whimsical artist nature 😜</p>
         <ul style="margin: .25rem .5rem !important;">
           <li><b>🖼 pixel art</b> — less is more.</li>
-          <li><b>🎶 music</b> — vocal, guitar 🎙️🎸</li>
+          <li><b>🎶 music</b> — vocal, guitar.</li>
           <li><b>✍🏻 drawing</b> — design, graphics, print.</li>
           <li><b>🎮 games</b> — strategy/role-play.</li>
           <li><b>🛠️ tinkering</b> — some cute inventions.</li>

@@ -1,12 +1,15 @@
 {
+  "private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "publish": "yarn node publish"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.6",
+    "ftp-deploy": "^2.4.3",
+    "nuxt": "3.0.0-rc.8",
     "sass": "^1.54.0",
     "sass-loader": "^13.0.2",
     "twemoji": "^14.0.2",
