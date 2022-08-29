@@ -25,6 +25,13 @@
   max-width: $system-layout-breakpoint;
   margin: 0 auto;
   padding: 0 1rem;
+
+  .__main,
+  .__side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 900px) {
@@ -33,16 +40,10 @@
 
     .__main {
       width: 55%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
     }
 
     .__side {
       width: 45%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
     }
   }
 }

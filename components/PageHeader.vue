@@ -1,10 +1,3 @@
-<script lang="ts" setup>
-import {
-  HomeIcon,
-  ToolsIcon,
-} from "vue-tabler-icons";
-
-</script>
 <template>
   <div>
     <header class="header">
@@ -17,13 +10,17 @@ import {
             <img src="https://twemoji.maxcdn.com/v/latest/svg/1f3e1.svg" width="32" height="32">
             <span>home</span>
           </NuxtLink>
-          <NuxtLink to="/" rel="dofollow">
+          <NuxtLink to="/story" rel="dofollow">
             <img src="https://twemoji.maxcdn.com/v/latest/svg/1f4d6.svg" width="32" height="32">
             <span>story</span>
           </NuxtLink>
-          <NuxtLink to="/" rel="dofollow">
+          <NuxtLink to="/work" rel="dofollow">
             <img src="https://twemoji.maxcdn.com/v/latest/svg/1f4be.svg" width="32" height="32">
             <span>work</span>
+          </NuxtLink>
+          <NuxtLink to="/ideas" rel="dofollow">
+            <img src="https://twemoji.maxcdn.com/v/latest/svg/1f4ac.svg" width="32" height="32">
+            <span>ideas</span>
           </NuxtLink>
         </nav>
       </div>
@@ -40,7 +37,7 @@ import {
   .__container {
     display: flex;
     margin: 0 auto;
-    padding: 1rem 1.5rem;
+    padding: .5rem 1rem;
     max-width: $system-layout-breakpoint;
     flex-direction: column;
     gap: 1rem;

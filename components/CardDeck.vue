@@ -20,7 +20,7 @@ const attrs = (columns) ? " --" + columns : "";
   row-gap: 1rem;
   column-gap: 1rem;
   grid-gap: 1rem 1rem;
-  grid-auto-rows: minmax(6rem, auto);
+  grid-auto-rows: minmax(4rem, auto);
   grid-template-columns: 1fr;
   max-width: 76rem;
   margin: 0 auto;

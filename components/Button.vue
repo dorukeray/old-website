@@ -22,7 +22,7 @@ let className = "button" + typeSuffix;
 @import "scss/styles.scss";
 
 .button {
-  display: inline-block;
+  display: inline-flex;
   padding: .5rem 1.35rem;
   border: 0 !important;
   border-radius: 1.25rem;
