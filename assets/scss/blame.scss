@@ -1,3 +1,10 @@
+.paragraph-tagline {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: $reference-color-gray-70;
+}
+
 .badge {
   padding: .5rem !important;
   border-radius: $system-layout-curve;
