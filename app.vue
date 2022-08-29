@@ -1,10 +1,24 @@
 <script setup>
+const route = useRoute();
+
 useHead({
-  titleTemplate: (title) => title,
+  titleTemplate: `${route.meta.title} — doruk eray`,
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
   charset: 'utf-8',
   meta: [
-    { name: 'description', content: `doruk eray's personal website.` }
+    { name: 'title', content: `${route.meta.title}` },
+    { name: 'description', content: `${route.meta.description}` },
+    { name: 'keywords', content: `${route.meta.keywords}` },
+    // open graph meta tags
+    { name: 'og:type', content: `website` },
+    { name: 'og:url', content: `${route.fullPath}` },
+    { name: 'og:title', content: `${route.meta.title}` },
+    { name: 'og:description', content: `${route.meta.description}` },
+    // twitter meta tags
+    { name: 'twitter:card', content: `summary` },
+    { name: 'twitter:url', content: `${route.fullPath}` },
+    { name: 'twitter:title', content: `${route.meta.title}` },
+    { name: 'twitter:description', content: `${route.meta.description}` },
   ],
   bodyAttrs: {
     class: 'body'
@@ -12,7 +26,10 @@ useHead({
   script: [{
     src: "https://twemoji.maxcdn.com/v/latest/twemoji.min.js",
     crossorigin: "anonymous"
-  }]
+  }],
+  link: [
+    { rel: 'icon', type: 'image/x-icon', href: 'favicon.png' }
+  ],
 })
 </script>
 

@@ -4,7 +4,7 @@ const hero = {
   tagline: "something's gone wrong :(",
   statement: `just use the links to surf the website.`,
   picture: {
-    source: "/images/doruk--green.png",
+    source: "/images/coffee.png",
     title: "pixelated, natively digital 🤩"
   },
 };

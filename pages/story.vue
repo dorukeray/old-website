@@ -18,7 +18,6 @@ import {
   ToolsIcon,
 } from "vue-tabler-icons";
 
-
 const hero = {
   title: "hello!",
   tagline: "i'm doruk eray.",
@@ -62,7 +61,9 @@ definePageMeta({
         <Picture :source="hero.picture.source" :title="hero.picture.title" />
       </template>
     </Showcase>
+
     <Break />
+
     <article>
       <h2>hi :)</h2>
       <h3 class="section-title">who i am?</h3>
@@ -78,7 +79,7 @@ definePageMeta({
       </p>
       <h4>how?</h4>
       <p>
-        my life purpose is to achieve remarkable things that will change the destiny of human civilisation. In this
+        my life purpose is to do remarkable things that will change the destiny of human civilisation. In this
         long journey, my first step is purifying and liberating the human knowledge to make it open, useful and
         meaningful for everyone. So, let's begin...
       </p>
@@ -211,7 +212,6 @@ definePageMeta({
     </article>
 
     <Break />
-
 
     <CardDeck :columns="3">
       <Card title="product design" message="user interface and experience, mostly software.">
