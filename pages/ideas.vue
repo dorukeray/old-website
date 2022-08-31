@@ -1,32 +1,60 @@
 <script setup lang="ts">
-const hero = {
-  title: "oops!",
-  tagline: "something's gone wrong :(",
-  statement: `just use the links to surf the website.`,
+let page = {
+  title: "ideas",
+  tagline: "i feel, therefore i am human.",
+  statement: `a collection of my thoughts, feelings, memories, inspirations, sayings and thanks. summarized.`,
   picture: {
-    source: "/images/coffee.png",
+    source: "/images/love.png",
   },
 };
+
+definePageMeta({
+  title: "ideas",
+  description: "a collection of my thoughts, feelings, memories, inspirations, sayings and thanks. summarized for you :)",
+  keywords: "ideas, thoughts, doruk eray, memories",
+});
+
+const quotes: [string, string][] = [
+  ["", ""],
+  ["", ""],
+  ["", ""],
+  ["", ""],
+];
 </script>
-  
-  <template>
+
+<template>
   <main>
     <Showcase style="margin-top: 0;">
       <template #main>
-        <Hero :title="hero.title" :tagline="hero.tagline" :statement="hero.statement" style="margin-top: 0 !important;">
-          <template #head>
-          </template>
+        <Hero :title="page.title" :tagline="page.tagline" :statement="page.statement">
           <template #content>
-            <div class="button-container" style="padding: 0;">
-              <Button type="fill" link="/about">back to home</Button>
-            </div>
+            <p style="font-size: 1.65rem;">
+              🧠💬✍🏻📣⏳💌
+            </p>
           </template>
         </Hero>
+
       </template>
       <template #side>
-        <Picture :source="hero.picture.source" />
+        <Picture :source="page.picture.source" />
       </template>
     </Showcase>
+    <Break />
+    <article>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nulla, repellat nostrum optio maxime nobis
+        vitae saepe, aliquam autem enim libero? Quo, suscipit dolores? Odio magnam labore quod voluptatum ad vero quo
+        repellat ipsam accusamus omnis aspernatur aliquam praesentium, illum adipisci rem officia asperiores
+        exercitationem doloremque reprehenderit blanditiis cupiditate? Quis beatae dolor ipsa sapiente. Explicabo, quis
+        in voluptatum iste minus aut consectetur. Consectetur, odio et fuga aliquid quo voluptates pariatur aspernatur
+        asperiores. Quidem eveniet iure voluptas sit ducimus! Animi totam magni nostrum aut eius iste, sed nam est cum,
+        dicta reiciendis provident obcaecati sint incidunt laboriosam similique, laborum culpa maiores?</p>
+    </article>
+    <article>
+      <CardDeck :columns="3">
+        <!-- print every quote -->
+        <Quote v-for="quote in quotes" :message="quote[0]" :owner="quote[1]" />
+      </CardDeck>
+    </article>
     <Break />
     <article class="dorkodian-hero">
       <Bulletpoint icon="🔗">
@@ -50,9 +78,9 @@ const hero = {
         </ul>
       </Bulletpoint>
     </article>
+    <Break />
   </main>
 </template>
-  
-  <style lang="scss" scoped>
-  </style>
-  
+
+<style lang="scss" scoped>
+</style>

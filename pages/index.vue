@@ -66,7 +66,7 @@ definePageMeta({
       <Bulletpoint icon="🍃">
         <p>
           i'm the <b>founder & chief</b> of <a href="https://dorkodu.com">dorkodu</a>,
-          a humane technology company where we create passionate products, pursuing our mission together.
+          a humane technology company where we create products for gamified experiences; pursuing our mission together.
         </p>
       </Bulletpoint>
       <Bulletpoint icon="👨🏻‍💻">

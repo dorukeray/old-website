@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const hero = {
+const page = {
   title: "oops!",
   tagline: "something's gone wrong :(",
   statement: `you shouldn't be here. you can use the links to surf the website, or just go back to the home page.`,
@@ -10,7 +10,7 @@ const hero = {
 
 definePageMeta({
   title: "oops!",
-  description: "something's gone wrong.",
+  description: "something's gone wrong :(",
   keywords: "oops, 404, not found",
 });
 </script>
@@ -19,18 +19,18 @@ definePageMeta({
   <main>
     <Showcase style="margin-top: 0;">
       <template #main>
-        <Hero :title="hero.title" :tagline="hero.tagline" :statement="hero.statement" style="margin-top: 0 !important;">
+        <Hero :title="page.title" :tagline="page.tagline" :statement="page.statement" style="margin-top: 0 !important;">
           <template #head>
           </template>
           <template #content>
             <div class="button-container" style="padding: 0;">
-              <Button type="fill" link="/">back to home</Button>
+              <Button type="fill" link="/">back to home ↗</Button>
             </div>
           </template>
         </Hero>
       </template>
       <template #side>
-        <Picture :source="hero.picture.source" />
+        <Picture :source="page.picture.source" />
       </template>
     </Showcase>
     <Break />
