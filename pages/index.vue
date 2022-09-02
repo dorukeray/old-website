@@ -34,7 +34,7 @@ definePageMeta({
         <Hero :title="hero.title" :tagline="hero.tagline" :statement="hero.statement" style="margin-top: 0 !important;">
           <template #content>
             <p class="hashtag">#software #design #economics #art</p>
-            <p style="font-size: 1.35rem">🤩👑💸💻🔗💿📚🎨🎭🎶🎙️🎸🗺📝🏛🗽🍦</p>
+            <p style="font-size: 1.35rem">🤩👑💸💻🔗💿📚🎨🎭🎶🎙️🎸🗺📝🏛🗽🍃🍦</p>
             <div class="button-container">
               <Button type="fill" link="/story">read my story</Button>
               <Button type="tonal" link="/work">see my work</Button>
@@ -178,9 +178,6 @@ definePageMeta({
         <h3>some useful links</h3>
         <ul style="margin: .25rem .5rem !important;">
           <li>
-            <p><b>🐦</b>&nbsp; i tweet often, <a href="https://twitter.com/d0rukeray">follow me on twitter</a>.</p>
-          </li>
-          <li>
             <p><b>📖</b>&nbsp; if you are curious, <a href="/story">read my story</a>.</p>
           </li>
           <li>
@@ -191,6 +188,9 @@ definePageMeta({
           </li>
           <li>
             <p><b>🙏🏻</b>&nbsp; see <a href="/ideas#thanks">thanks</a> section for my attribution.</p>
+          </li>
+          <li>
+            <p><b>🐦</b>&nbsp; i tweet often, <a href="https://twitter.com/d0rukeray">follow me on twitter</a>.</p>
           </li>
         </ul>
       </Bulletpoint>

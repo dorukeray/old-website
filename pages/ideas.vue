@@ -15,10 +15,10 @@ definePageMeta({
 });
 
 const quotes: [string, string][] = [
-  ["", ""],
-  ["", ""],
-  ["", ""],
-  ["", ""],
+  [`the simple things are also the most extraordinary things, and only the wise can see them.`, "paulo coelho"],
+  ["tongue-tied and twisted, just an earth-bound misfit, i.", "pink floyd"],
+  [`so throw off the bowlines. sail away from the safe harbor. catch the trade winds in your sails. explore. dream. discover.`, "?"],
+  ["write the book you want to read.", "?"],
 ];
 </script>
 
@@ -29,33 +29,36 @@ const quotes: [string, string][] = [
         <Hero :title="page.title" :tagline="page.tagline" :statement="page.statement">
           <template #content>
             <p style="font-size: 1.65rem;">
-              🧠💬✍🏻📣⏳💌
+              🧠💬✍🏻📣💌
             </p>
           </template>
         </Hero>
-
       </template>
       <template #side>
         <Picture :source="page.picture.source" />
       </template>
     </Showcase>
-    <Break />
     <article>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nulla, repellat nostrum optio maxime nobis
-        vitae saepe, aliquam autem enim libero? Quo, suscipit dolores? Odio magnam labore quod voluptatum ad vero quo
-        repellat ipsam accusamus omnis aspernatur aliquam praesentium, illum adipisci rem officia asperiores
-        exercitationem doloremque reprehenderit blanditiis cupiditate? Quis beatae dolor ipsa sapiente. Explicabo, quis
-        in voluptatum iste minus aut consectetur. Consectetur, odio et fuga aliquid quo voluptates pariatur aspernatur
-        asperiores. Quidem eveniet iure voluptas sit ducimus! Animi totam magni nostrum aut eius iste, sed nam est cum,
-        dicta reiciendis provident obcaecati sint incidunt laboriosam similique, laborum culpa maiores?</p>
+      <h2>i love being myself...</h2>
+      <p>
+        ...and i love being alive. i'm somehow wonderfully connected to other human beings,
+        and it's really hard to choose just a few from a billion things which influenced me.
+      </p>
+      <p>so please try to check this page often for inspirations! ✨</p>
     </article>
     <article>
-      <CardDeck :columns="3">
+      <h3>quotes</h3>
+      <CardDeck :columns="2">
         <!-- print every quote -->
         <Quote v-for="quote in quotes" :message="quote[0]" :owner="quote[1]" />
       </CardDeck>
     </article>
-    <Break />
+    <article>
+
+    </article>
+    <article id="thanks">
+      <h2>thanks</h2>
+    </article>
     <article class="dorkodian-hero">
       <Bulletpoint icon="🔗">
         <h3>some useful links</h3>
