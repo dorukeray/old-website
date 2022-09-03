@@ -57,32 +57,53 @@ definePageMeta({
     <Break />
 
     <article>
-      <h2>hi :)</h2>
-      <h3 class="section-title">who i am?</h3>
-      <p>my life purpose to <i>liberate the human with meaningful technology</i>, build the dream commonwealth of a
-        heaven, but on earth. yep. that's my purpose 🤩</p>
-      <h4>why?</h4>
+      <h2>hello, again. 👋🏻</h2>
+      <h4 style="#aabbcc">let's continue from where we left 🍃</h4>
+      <Bulletpoint icon="👁‍🗨">
+        <p style="font-size: 1.25rem; margin: 0;">
+          <span class="paragraph-tagline"> my life purpose...</span>
+          <br>liberate the human,
+          <br>build the utopian dream of heaven on earth,
+          <br>create a free and happy life experience, for everyone.
+        </p>
+      </Bulletpoint>
       <SectionRuler />
-      <p class="dorkodian-gradient">
-        i want to live a free, happy and meaningful life. a humane life that everyone deserves.
+    </article>
+    <article>
+      <h4>why?</h4>
+      <p>
+        simple. i want to live a free, happy and meaningful life. a humane life that everyone deserves.
         i believe this is a fundemental human right: a livable world & a life worth living.
         so we need to come together, and create this utopic dream life for everyone.
       </p>
       <h4>how?</h4>
-      <p>I am Doruk, an autodidact high-school kid who is working on software, especially product engineering & design.
-        I teach myself the arts of software engineering, design, user experience, computer science and so on.
-
-        I want to achieve meaningful and remarkable things, be remembered as an inventor, innovator, pioneer; or in a
-        single word, as a protagonist in the story of human.</p>
+      <p>i am doruk, a high-school kid passionate in products, design and software.
+        i am an autodidact (self-taught) so i teach myself the arts of my work
+        as well as my interest fields:
+        <b>
+          gamification,
+          web 3.0,
+          knowledge,
+          economics,
+          human nature,
+          industrial design
+        </b>
+        and
+        <b>artificial intelligence</b>
+      </p>
+      <p>
+        i want to do meaningful and remarkable things, be remembered as an inventor, innovator, artist, a cult leader;
+        or in a single word, as a <u><b>protagonist</b></u> in the story of human.
+      </p>
     </article>
 
     <Break />
     <Showcase>
       <template #main>
-        <DescriptiveList title="me:" message="my answers">
+        <DescriptiveList title="know thyself." message="you ask me these common questions. so here are my answers! ⬇️">
           <DescriptiveItem title="who?"
             description="thinker, leader, artist, inventor, designer, polymath, idol, revolutionist, entrepreneur.">
-            <UserIcon class="symbol" />
+            <!-- <UserIcon class="symbol" /> -->
           </DescriptiveItem>
           <DescriptiveItem title="what i love to do?"
             description="think, design, code, learn, build, socialize, talk, think, feel... any type of creative activity.">
@@ -98,25 +119,22 @@ definePageMeta({
         </DescriptiveList>
       </template>
       <template #side>
-        <Picture source="/images/doruk.png" title="merhaba" />
+        <Picture source="/images/dancing.png" title="i love being in the zone ♓️" />
       </template>
     </Showcase>
+
     <Break />
 
-
     <article>
-      <h2>Story</h2>
-      <img src="/images/doodles/DancingDoodle.png" alt="dancing doodle.">
-      <p>I am Doruk, an <b>autodidact</b> high-school kid who is working on <b>software</b>,
-        especially <b>product engineering & design</b>. i teach myself the arts of software engineering, design,
-        user experience, computer science and so on.</p>
-      <p>I want to do meaningful and remarkable things, be remembered as an inventor, artist, innovator, pioneer;
-        or in a single word, as a <b>protagonist</b> in the story of human.</p>
-
-      <h3>Just a kid? Wait!</h3>
-      <p>I was so curious that my mom had to teach me how to read and write when I was <strong>3</strong>. This was the
-        start in my life. I loved tinkering with things, to understand how they work and how to build them. <strong>I've
-          always been dreaming to be an inventor since then.</strong></p>
+      <h2>story</h2>
+      <p>
+        i was so curious that my mom had to teach me how to read and write when I was <strong>3</strong>.
+        i loved tinkering with things, to understand how they work and how to build them.
+        <strong>i've always been dreaming to be an inventor since then.</strong>
+        <br>
+        this was the start in my life.
+      </p>
+      <h4>a</h4>
       <p>When I started elementary school, I spent my whole time with <strong>reading about history and drawing the
           moments, battle scenes, maps which I just read.</strong> This was exciting until I realized that how tables
         can turn so quickly. Today I may be victorious, glorious; but tomorrow maybe defeated, perished.</p>

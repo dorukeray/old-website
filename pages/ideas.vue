@@ -19,6 +19,9 @@ const quotes: [string, string][] = [
   ["tongue-tied and twisted, just an earth-bound misfit, i.", "pink floyd"],
   [`so throw off the bowlines. sail away from the safe harbor. catch the trade winds in your sails. explore. dream. discover.`, "?"],
   ["write the book you want to read.", "?"],
+  ["you know, one of the tragedies of real life is that there is no background music.", "annie proulx"],
+  ["you only live once, but if you do it right, once is enough.", "mae west"],
+  ["the function of prayer is not to influence God, but rather to change the nature of the one who prays.", "søren kierkegaard"]
 ];
 </script>
 
@@ -47,15 +50,14 @@ const quotes: [string, string][] = [
       <p>so please try to check this page often for inspirations! ✨</p>
     </article>
     <article>
-      <h3>quotes</h3>
-      <CardDeck :columns="2">
-        <!-- print every quote -->
-        <Quote v-for="quote in quotes" :message="quote[0]" :owner="quote[1]" />
-      </CardDeck>
+      <h3>💬 quotes</h3>
     </article>
-    <article>
 
-    </article>
+    <CardDeck :columns="3">
+      <!-- print every quote -->
+      <Quote v-for="quote in quotes" :message="quote[0]" :owner="quote[1]" />
+    </CardDeck>
+
     <article id="thanks">
       <h2>thanks</h2>
     </article>

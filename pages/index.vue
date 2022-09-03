@@ -85,7 +85,7 @@ definePageMeta({
         <p>my interests of work are <b>
             gamification,
             web 3.0,
-            knowledge theory,
+            knowledge,
             economics,
             human nature,
             industrial design</b>
@@ -107,7 +107,7 @@ definePageMeta({
         </ul>
       </Bulletpoint>
       <Bulletpoint icon="🗽">
-        <p>i love <b>open source</b>, the mission of contributing to a common good.</p>
+        <p>i love <b>open source</b>, contributing to a common good.</p>
         <p>
           i created some projects for <i>better developer experience</i> and <i>state-of-the-art products</i>.
           see <a href="https://libre.dorkodu.com" target="_blank" rel="noopener noreferrer">dorkodu libre</a>
@@ -178,7 +178,7 @@ definePageMeta({
         <h3>some useful links</h3>
         <ul style="margin: .25rem .5rem !important;">
           <li>
-            <p><b>📖</b>&nbsp; if you are curious, <a href="/story">read my story</a>.</p>
+            <p><b>📖</b>&nbsp; if you are curious, read <a href="/story">my story</a>.</p>
           </li>
           <li>
             <p><b>💾</b>&nbsp; see <a href="/work">my work</a> page for my portfolio & resume.</p>

@@ -1,6 +1,6 @@
 <template>
   <div class="Bulletpoint">
-    <span>{{ icon }}</span>
+    <span class="emoji">{{ icon }}</span>
     <div class="content">
       <slot />
     </div>
@@ -36,7 +36,7 @@ $iconSize: 2.25rem;
     }
   }
 
-  span {
+  .emoji {
     font-size: $iconSize  !important;
     height: auto !important;
     width: auto !important;
