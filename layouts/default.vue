@@ -2,30 +2,16 @@
 </script>
 <template>
   <div>
-    <PageHeader />
+    <Page:Header />
     <slot />
-    <PageFooter />
+    <Page:Footer />
   </div>
 </template>
 <style lang="scss">
 @import "scss/styles.scss";
 
-.dorkodian-hero {
-  border-radius: 1rem;
+.--dorkodian {
   background-image: linear-gradient(48deg, hsl(100, 65%, 90%) 10%, hsl(125, 65%, 60%) 55%, hsl(160, 80%, 85%) 85%);
-  width: 95%;
-
-  * {
-    text-shadow: hsl(125, 65%, 90%) 2px 1px 1px;
-  }
-
-  a {
-    color: $system-color-secondary-50;
-
-    &:hover {
-      color: $system-color-secondary-30;
-    }
-  }
 }
 
 .hashtag {
@@ -88,12 +74,10 @@
   }
 }
 
-
-
 ul {
   display: flex;
   flex-direction: column;
-  gap: .35rem;
+  gap: .25rem;
 
   li {
     font-size: 1.15rem !important;

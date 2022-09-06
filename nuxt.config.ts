@@ -10,9 +10,12 @@ export default defineNuxtConfig({
   },
   target: 'static', // default is 'server'
   css: [
-    'scss/styles.scss',
+    '@/assets/scss/styles.scss',
   ],
   typescript: {
     shim: false
-  }
+  },
+  modules: [
+    'nuxt-icon'
+  ]
 })

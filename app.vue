@@ -23,10 +23,7 @@ useHead({
   bodyAttrs: {
     class: 'body'
   },
-  script: [{
-    src: "https://twemoji.maxcdn.com/v/latest/twemoji.min.js",
-    crossorigin: "anonymous"
-  }],
+  script: [],
   link: [
     { rel: 'icon', type: 'image/x-icon', href: 'favicon.png' }
   ],
