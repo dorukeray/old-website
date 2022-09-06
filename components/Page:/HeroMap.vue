@@ -2,7 +2,7 @@
   <article>
     <div class="HeroMap --dorkodian">
       <h3 style="margin-bottom: 1rem;">some useful links</h3>
-      <div style="margin: .25rem 0 !important;">
+      <div>
         <p>
           <Icon name="twemoji:house-with-garden" size="30" />&nbsp;&nbsp;
           see <a href="/story">home</a> page for tl;dr;
@@ -41,11 +41,14 @@
 
 .HeroMap {
   border-radius: 1rem;
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
 
   h3 {
     text-align: left;
     padding: 0;
+    margin: .5rem 0;
+    padding-bottom: .5rem;
+    border-bottom: .25rem dashed $system-color-neutral-100;
   }
 
   div p {
