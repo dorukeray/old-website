@@ -1,6 +1,8 @@
 <template>
   <div class="Bulletpoint">
-    <span class="emoji">{{ icon }}</span>
+    <span class="emoji">
+      <Icon :name="icon" />
+    </span>
     <div class="content">
       <slot />
     </div>
@@ -14,7 +16,7 @@ let { icon } = defineProps<{
 </script>
 
 <style lang="scss">
-$iconSize: 2.25rem;
+$iconSize: 2.75rem;
 
 .Bulletpoint {
   display: flex;
