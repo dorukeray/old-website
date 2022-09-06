@@ -1,12 +1,3 @@
-<script lang="ts" setup>
-import {
-  BrandTwitterIcon,
-  BrandTelegramIcon,
-  BrandGithubIcon,
-  BrandInstagramIcon,
-  MailOpenedIcon,
-} from "vue-tabler-icons";
-</script>
 <template>
   <footer class="footer">
     <div class="__wrapper">
@@ -14,19 +5,19 @@ import {
         <p class="__statement"><b>&copy; 2022</b> — a <b>doruk eray</b> masterpiece.</p>
         <nav>
           <a href="https://twitter.com/d0rukeray">
-            <BrandTwitterIcon />
+            <Icon name="tabler:brand-twitter" />
           </a>
           <a href="https://github.com/dorukeray">
-            <BrandGithubIcon />
+            <Icon name="tabler:brand-github" />
           </a>
           <a href="https://instagram.com/d0rukeray">
-            <BrandInstagramIcon />
+            <Icon name="tabler:brand-instagram" />
           </a>
           <a href="https://t.me/dorukeray">
-            <BrandTelegramIcon />
+            <Icon name="tabler:brand-telegram" />
           </a>
           <a href="mailto:doruk@dorkodu.com">
-            <MailOpenedIcon />
+            <Icon name="tabler:mail-opened" />
           </a>
         </nav>
       </div>

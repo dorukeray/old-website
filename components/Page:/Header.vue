@@ -7,19 +7,19 @@
         </a>
         <nav class="__nav">
           <NuxtLink to="/" rel="dofollow">
-            <img src="https://twemoji.maxcdn.com/v/latest/svg/1f3e1.svg" width="32" height="32">
+            <Icon name="twemoji:house-with-garden" size="24" />
             <span>home</span>
           </NuxtLink>
           <NuxtLink to="/story" rel="dofollow">
-            <img src="https://twemoji.maxcdn.com/v/latest/svg/1f4d6.svg" width="32" height="32">
+            <Icon name="twemoji:open-book" size="24" />
             <span>story</span>
           </NuxtLink>
           <NuxtLink to="/work" rel="dofollow">
-            <img src="https://twemoji.maxcdn.com/v/latest/svg/1f4be.svg" width="32" height="32">
+            <Icon name="twemoji:floppy-disk" size="24" />
             <span>work</span>
           </NuxtLink>
           <NuxtLink to="/ideas" rel="dofollow">
-            <img src="https://twemoji.maxcdn.com/v/latest/svg/1f4ac.svg" width="32" height="32">
+            <Icon name="twemoji:speech-balloon" size="24" />
             <span>ideas</span>
           </NuxtLink>
         </nav>
@@ -88,8 +88,8 @@
 
       svg {
         color: $reference-color-gray-70;
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 2rem;
+        height: 2rem;
       }
     }
   }
