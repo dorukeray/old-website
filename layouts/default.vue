@@ -14,6 +14,11 @@
   background-image: linear-gradient(48deg, hsl(100, 65%, 90%) 10%, hsl(125, 65%, 60%) 55%, hsl(160, 80%, 85%) 85%);
 }
 
+.icon {
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+
 .hashtag {
   color: $reference-color-blue-60;
   font-weight: 500;

@@ -126,7 +126,7 @@ definePageMeta({
 
     <Break />
 
-    <Page:HeroMap />
+    <Page:Legend />
 
     <!--
 

@@ -12,7 +12,7 @@ const hero = {
 
 definePageMeta({
   title: "welcome!",
-  description: `founder, product polymath, lunatic.`,
+  description: `founder, product polymath, craftsman.`,
   keywords: `doruk eray, doruk, eray, mr. dorkodu, d0rukeray`,
 });
 </script>
@@ -64,7 +64,7 @@ definePageMeta({
       <p style="font-size: 1.25rem; margin: 0;">
         <span class="paragraph-tagline">i want to...</span>
         <br>build the utopian dream of heaven on earth,
-        <br>a free and happy life experience, for everyone,
+        <br>create a free and happy life experience, for everyone,
         <br><b>liberate the human with meaningful technology.</b>
       </p>
       <p>
@@ -158,7 +158,7 @@ definePageMeta({
       </Bulletpoint>
       <Bulletpoint icon="twemoji:globe-showing-americas">
         <p>it's part of my mission to help save the destiny of human civilization by contributing to areas like
-          <b>agriculture, water, green energy, space, education, genetics</b> and <b>ai</b>.
+          <b>agriculture, water, green energy, space, education, genetics</b> and <b>ai</b>; in near future.
         </p>
       </Bulletpoint>
       <SectionRuler />
@@ -168,7 +168,7 @@ definePageMeta({
 
     <Break />
 
-    <Page:HeroMap />
+    <Page:Legend />
 
     <Break />
   </main>
@@ -176,9 +176,4 @@ definePageMeta({
 
 <style lang="scss">
 @import "scss/styles.scss";
-
-.icon {
-  margin-left: .1rem;
-  margin-right: .1rem;
-}
 </style>

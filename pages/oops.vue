@@ -35,6 +35,6 @@ definePageMeta({
     </Showcase>
     <Break />
 
-    <Page:HeroMap />
+    <Page:Legend />
   </main>
 </template>

@@ -15,13 +15,15 @@ definePageMeta({
 });
 
 const quotes: [string, string][] = [
-  [`the simple things are also the most extraordinary things, and only the wise can see them.`, "paulo coelho"],
+  [`And, when you want something, all the universe conspires in helping you to achieve it.`, "paulo coelho"],
+  ["Have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary.", "steve jobs"],
+  ["A man is a success if he gets up in the morning and gets to bed at night, and in between he does what he wants to do.", "Bob Dylan"],
+  ["If something is important enough, you should still do it even if the odds are not in your favor.", "Elon Musk"],
+  [`Victory is for those who can say "Victory is mine". Success is for those who can begin saying "I will succeed" and say "I have succeeded" in the end.`, "Mustafa Kemal Atatürk"],
+  ["You have to let it all go, Neo. Fear, doubt, and disbelief. Free your mind.", "the matrix"],
+  ["The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.", "Albert Camus"],
   ["tongue-tied and twisted, just an earth-bound misfit, i.", "pink floyd"],
-  [`so throw off the bowlines. sail away from the safe harbor. catch the trade winds in your sails. explore. dream. discover.`, "?"],
-  ["write the book you want to read.", "?"],
-  ["you know, one of the tragedies of real life is that there is no background music.", "annie proulx"],
-  ["you only live once, but if you do it right, once is enough.", "mae west"],
-  ["the function of prayer is not to influence God, but rather to change the nature of the one who prays.", "søren kierkegaard"]
+  ["to be great is to be misunderstood.", "Ralph Waldo Emerson"],
 ];
 </script>
 
@@ -31,8 +33,12 @@ const quotes: [string, string][] = [
       <template #main>
         <Hero :title="page.title" :tagline="page.tagline" :statement="page.statement">
           <template #content>
-            <p style="font-size: 1.65rem;">
-              🧠💬✍🏻📣💌
+            <p style="font-size: 2rem;">
+              <Icon name="twemoji:brain" />
+              <Icon name="noto:speech-balloon" />
+              <Icon name="fluent-emoji-flat:writing-hand-light" />
+              <Icon name="twemoji:megaphone" />
+              <Icon name="twemoji:love-letter" />
             </p>
           </template>
         </Hero>
@@ -44,13 +50,17 @@ const quotes: [string, string][] = [
     <article>
       <h2>i love being myself...</h2>
       <p>
-        ...and i love being alive. i'm somehow wonderfully connected to other human beings,
+        ...and i love being alive. i somehow feel wonderful, being connected to other people,
         and it's really hard to choose just a few from a billion things which influenced me.
       </p>
-      <p>so please try to check this page often for inspirations! ✨</p>
+      <p>so please try to check this page often for inspirations!
+        <Icon name="twemoji:sparkles" size="24" />
+      </p>
     </article>
     <article>
-      <h3>💬 quotes</h3>
+      <h3>
+        <Icon name="noto:speech-balloon" size="32" /> quotes
+      </h3>
     </article>
 
     <CardDeck :columns="3">
@@ -61,28 +71,9 @@ const quotes: [string, string][] = [
     <article id="thanks">
       <h2>thanks</h2>
     </article>
-    <article class="dorkodian-hero">
-      <Bulletpoint icon="🔗">
-        <h3>some useful links</h3>
-        <ul style="margin: .25rem .5rem !important;">
-          <li>
-            <p><b>🐦</b>&nbsp; i tweet often, <a href="https://twitter.com/d0rukeray">follow me on twitter</a>.</p>
-          </li>
-          <li>
-            <p><b>📖</b>&nbsp; if you are curious, <a href="/story">read my story</a>.</p>
-          </li>
-          <li>
-            <p><b>💾</b>&nbsp; see <a href="/work">my work</a> page for my portfolio & resume.</p>
-          </li>
-          <li>
-            <p><b>💬</b>&nbsp; see <a href="/ideas">ideas</a> page for my opinions, words etc.</p>
-          </li>
-          <li>
-            <p><b>🙏🏻</b>&nbsp; see <a href="/ideas#thanks">thanks</a> section for my attribution.</p>
-          </li>
-        </ul>
-      </Bulletpoint>
-    </article>
+
+    <Page:Legend />
+
     <Break />
   </main>
 </template>
