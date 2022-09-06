@@ -1,11 +1,11 @@
 <template>
   <article>
-    <div class="HeroMap --dorkodian">
+    <div class="Legend --dorkodian">
       <h3 style="margin-bottom: 1rem;">some useful links</h3>
       <div>
         <p>
           <Icon name="twemoji:house-with-garden" size="30" />&nbsp;&nbsp;
-          see <a href="/story">home</a> page for tl;dr;
+          see <a href="/story">home</a> page for tl;dr.
         </p>
         <p>
           <Icon name="twemoji:open-book" size="30" />&nbsp;&nbsp;
@@ -39,7 +39,7 @@
 <style lang="scss" scoped>
 @import "scss/styles.scss";
 
-.HeroMap {
+.Legend {
   border-radius: 1rem;
   padding: 1rem 2.5rem;
 

@@ -6,7 +6,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "publish": "yarn node publish"
+    "publish": "yarn node publish",
+    "warmup": "yarn install && nuxt prepare && nuxt dev"
   },
   "devDependencies": {
     "ftp-deploy": "^2.4.3",
