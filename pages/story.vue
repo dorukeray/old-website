@@ -1,24 +1,4 @@
 <script lang="ts" setup>
-import {
-  BrandTelegramIcon,
-  BrandTwitterIcon,
-  BrandGithubIcon,
-  BrandInstagramIcon,
-  MailOpenedIcon,
-  BrandDiscordIcon,
-  ManIcon,
-  CodeIcon,
-  UserIcon,
-  WorldIcon,
-  HeartIcon,
-  CertificateIcon,
-  QuestionMarkIcon,
-  HeartHandshakeIcon,
-  PolaroidIcon,
-  ToolsIcon,
-  EmpathizeIcon
-} from "vue-tabler-icons";
-
 const page = {
   title: "my story",
   tagline: "once upon a time...",
@@ -110,18 +90,18 @@ definePageMeta({
         <DescriptiveList title="know thyself." message="you ask me these common questions. so here are my answers! ⬇️">
           <DescriptiveItem title="who?"
             description="thinker, leader, artist, inventor, designer, polymath, idol, revolutionist, entrepreneur.">
-            <UserIcon class="symbol" />
+            <Icon name="tabler:user" class="symbol" />
           </DescriptiveItem>
           <DescriptiveItem title="what i love to do?"
             description="think, design, code, learn, build, socialize, talk, think, feel... any type of creative activity.">
-            <HeartIcon class="symbol" />
+            <Icon name="tabler:heart" class="symbol" />
           </DescriptiveItem>
           <DescriptiveItem title="for whom?" description="myself, and then everyone.">
-            <WorldIcon class="symbol" />
+            <Icon name="tabler:world" class="symbol" />
           </DescriptiveItem>
           <DescriptiveItem title="why?"
             description="this is my mission, purpose of life. i always experience the human authenticity, being in the flow and losing sense of time and space.">
-            <QuestionMarkIcon class="symbol" />
+            <Icon name="tabler:question-mark" class="symbol" />
           </DescriptiveItem>
         </DescriptiveList>
       </template>
@@ -177,6 +157,8 @@ definePageMeta({
       <p>This is what I dedicated the first part of my career to.</p>
       <p>You can see <a href="https://dorkodu.com">Dorkodu</a> to learn more about our projects.</p>
     </article>
+
+    <Page:Contact />
 
     <article class="dorkodian-hero">
       <Bulletpoint icon="🔗">

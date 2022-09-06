@@ -1,17 +1,4 @@
 <script lang="ts" setup>
-import {
-  BrandTelegramIcon,
-  BrandTwitterIcon,
-  BrandGithubIcon,
-  BrandInstagramIcon,
-  MailOpenedIcon,
-  BrandDiscordIcon,
-  CodeIcon,
-  CertificateIcon,
-  HeartHandshakeIcon,
-  PolaroidIcon,
-  ToolsIcon,
-} from "vue-tabler-icons";
 
 const page = {
   title: "my work",
@@ -93,42 +80,42 @@ definePageMeta({
       <p style="margin: 0; text-align: center;">want to have a talk? <b>let's get in touch! 🤙🏻</b></p>
       <CardDeck :columns="2">
         <li class="IconItem">
-          <BrandTwitterIcon />
+          <Icon name="tabler:brand-twitter" />
           <div>
             <span><a href="https://twitter.com/d0rukeray">d0rukeray</a></span>
             <span><b>twitter</b> (tweets & dm)</span>
           </div>
         </li>
         <li class="IconItem">
-          <BrandTelegramIcon />
+          <Icon name="tabler:brand-telegram" />
           <div>
             <span><a href="https://t.me/dorukeray">dorukeray</a></span>
             <span><b>telegram</b> (1:1 messages)</span>
           </div>
         </li>
         <li class="IconItem">
-          <BrandGithubIcon />
+          <Icon name="tabler:brand-github" />
           <div>
             <span><a href="https://github.com/dorukeray">dorukeray</a></span>
             <span><b>github</b> (open source)</span>
           </div>
         </li>
         <li class="IconItem">
-          <BrandInstagramIcon />
+          <Icon name="tabler:brand-instagram" />
           <div>
             <span><a href="https://instagram.com/d0rukeray">d0rukeray</a></span>
             <span><b>instagram</b> (social life)</span>
           </div>
         </li>
         <li class="IconItem">
-          <BrandDiscordIcon />
+          <Icon name="tabler:brand-discord" />
           <div>
             <span><a href="https://discord.com/users/990571541026734080">dorukeray#5097</a></span>
             <span><b>discord</b> (community chat)</span>
           </div>
         </li>
         <li class="IconItem">
-          <MailOpenedIcon />
+          <Icon name="tabler:brand-mail-opened" />
           <div>
             <span><a href="mailto:doruk@dorkodu.com">doruk@dorkodu.com</a></span>
             <span><b>email</b> (no, please)</span>
@@ -139,28 +126,7 @@ definePageMeta({
 
     <Break />
 
-    <article class="dorkodian-hero">
-      <Bulletpoint icon="🔗">
-        <h3>some useful links</h3>
-        <ul style="margin: .25rem .5rem !important;">
-          <li>
-            <p><b>🏡</b>&nbsp; if you are curious, <a href="/story">read my story</a>.</p>
-          </li>
-          <li>
-            <p><b>🐦</b>&nbsp; i tweet often, <a href="https://twitter.com/d0rukeray">follow me on twitter</a>.</p>
-          </li>
-          <li>
-            <p><b>📖</b>&nbsp; if you are curious, <a href="/story">read my story</a>.</p>
-          </li>
-          <li>
-            <p><b>💬</b>&nbsp; see <a href="/ideas">ideas</a> page for my opinions, words etc.</p>
-          </li>
-          <li>
-            <p><b>🙏🏻</b>&nbsp; see <a href="/ideas#thanks">thanks</a> section for my attribution.</p>
-          </li>
-        </ul>
-      </Bulletpoint>
-    </article>
+    <Page:HeroMap />
 
     <!--
 
