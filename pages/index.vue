@@ -56,12 +56,16 @@ definePageMeta({
     <Break />
 
     <article>
-      <h2>who i am?</h2>
+      <h2>
+        <span>who i am?</span>
+        <Icon name="fluent-emoji-flat:thinking-face" size="36" />
+      </h2>
+      <h4>...or why you should care?</h4>
       <p style="font-size: 1.25rem; margin: 0;">
-        <span class="paragraph-tagline">my life purpose...</span>
-        <br>
-        <b>liberate the human with meaningful technology</b>,
-        build the utopian dream of heaven on earth, a free and happy life experience, for everyone.
+        <span class="paragraph-tagline">i want to...</span>
+        <br>build the utopian dream of heaven on earth,
+        <br>a free and happy life experience, for everyone,
+        <br><b>liberate the human with meaningful technology.</b>
       </p>
       <p>
         — yep. this is why i wake up every day.

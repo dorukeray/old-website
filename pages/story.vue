@@ -4,8 +4,8 @@ const page = {
   tagline: "once upon a time...",
   statement: `a summary & timeline of my life, story, personality.`,
   picture: {
-    source: "/images/doruk--green.png",
-    title: "pixelated, natively digital 🤩"
+    source: "/images/coffee.png",
+    title: "one more cup of coffee ☕️"
   },
 };
 
@@ -22,8 +22,13 @@ definePageMeta({
 
         <Hero :title="page.title" :tagline="page.tagline" :statement="page.statement">
           <template #content>
-            <p style="font-size: 1.65rem;">
-              📜🗞️📖⏳🕒
+            <p style="font-size: 2rem;">
+              <Icon name="twemoji:scroll" />
+              <Icon name="twemoji:rolled-up-newspaper" />
+              <Icon name="twemoji:open-book" />
+              <Icon name="twemoji:hourglass-done" />
+              <Icon name="twemoji:three-oclock" />
+              <Icon name="" />
             </p>
           </template>
         </Hero>
@@ -37,15 +42,18 @@ definePageMeta({
     <Break />
 
     <article>
-      <h2>hello, again. 👋🏻</h2>
+      <h2>
+        <span>hello, again.</span>&nbsp;
+        <Icon name="fluent-emoji-flat:waving-hand-light" size="36" />
+      </h2>
       <h4 style="#aabbcc">let's continue from where we left.</h4>
-      <Bulletpoint icon="🍃">
+      <Bulletpoint icon="twemoji:leaf-fluttering-in-wind">
         <p style="font-size: 1.25rem; margin: 0; font-weight: 400;">
           <span class="paragraph-tagline">my purpose;</span>
           <br><b>liberate the human.</b>
         </p>
       </Bulletpoint>
-      <Bulletpoint icon="🚩">
+      <Bulletpoint icon="twemoji:bullseye">
         <p style="font-size: 1.25rem; margin: 0; font-weight: 400;">
           <span class="paragraph-tagline">my mission;</span>
           <br>create a free and happy life experience, for everyone,
@@ -90,18 +98,18 @@ definePageMeta({
         <DescriptiveList title="know thyself." message="you ask me these common questions. so here are my answers! ⬇️">
           <DescriptiveItem title="who?"
             description="thinker, leader, artist, inventor, designer, polymath, idol, revolutionist, entrepreneur.">
-            <Icon name="tabler:user" class="symbol" />
+            <Icon name="fluent-emoji-flat:boy-light" size="36" />
           </DescriptiveItem>
           <DescriptiveItem title="what i love to do?"
             description="think, design, code, learn, build, socialize, talk, think, feel... any type of creative activity.">
-            <Icon name="tabler:heart" class="symbol" />
+            <Icon name="fluent-emoji-flat:shooting-star" size="36" />
           </DescriptiveItem>
           <DescriptiveItem title="for whom?" description="myself, and then everyone.">
-            <Icon name="tabler:world" class="symbol" />
+            <Icon name="twemoji:people-hugging" size="36" />
           </DescriptiveItem>
           <DescriptiveItem title="why?"
             description="this is my mission, purpose of life. i always experience the human authenticity, being in the flow and losing sense of time and space.">
-            <Icon name="tabler:question-mark" class="symbol" />
+            <Icon name="twemoji:growing-heart" size="36" />
           </DescriptiveItem>
         </DescriptiveList>
       </template>
@@ -115,7 +123,9 @@ definePageMeta({
     <article>
       <h2>story</h2>
       <p>
-        <span class="paragraph-tagline">👶🏻</span>
+        <span class="paragraph-tagline">
+          <Icon name="fluent-emoji-flat:baby-light" />
+        </span>
         i was a <i>curious</i> and <i>artistic</i> child, and my mom did teach me how to read and write when I was
         <strong>3</strong>. i loved tinkering with gadgets, to understand how they work and how to build my own things.
       </p>
@@ -124,7 +134,9 @@ definePageMeta({
         <br>this was the start in my life.
       </p>
       <p>
-        <span class="paragraph-tagline">🏫</span>
+        <span class="paragraph-tagline">
+          <Icon name="fluent-emoji-flat:school" />
+        </span>
         when i started elementary school, i spent my whole time <b>reading about history</b> and
         <b>picturing the moments</b>, battle scenes, maps which I just read.
         this was exciting until i realized that how tables can turn so quickly.
@@ -160,28 +172,10 @@ definePageMeta({
 
     <Page:Contact />
 
-    <article class="dorkodian-hero">
-      <Bulletpoint icon="🔗">
-        <h3>some useful links</h3>
-        <ul style="margin: .25rem .5rem !important;">
-          <li>
-            <p><b>📖</b>&nbsp; if you are curious, <a href="/story">read my story</a>.</p>
-          </li>
-          <li>
-            <p><b>💾</b>&nbsp; see <a href="/work">my work</a> page for my portfolio & resume.</p>
-          </li>
-          <li>
-            <p><b>💬</b>&nbsp; see <a href="/ideas">ideas</a> page for my opinions, words etc.</p>
-          </li>
-          <li>
-            <p><b>🙏🏻</b>&nbsp; see <a href="/ideas#thanks">thanks</a> section for my attribution.</p>
-          </li>
-          <li>
-            <p><b>🐦</b>&nbsp; i tweet often, <a href="https://twitter.com/d0rukeray">follow me on twitter</a>.</p>
-          </li>
-        </ul>
-      </Bulletpoint>
-    </article>
+    <Break />
+
+    <Page:HeroMap />
+
     <Break />
   </main>
 </template>
