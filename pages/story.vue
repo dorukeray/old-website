@@ -23,7 +23,7 @@ definePageMeta({
         <Hero :title="page.title" :tagline="page.tagline" :statement="page.statement">
           <template #content>
             <p style="font-size: 2rem;">
-              <Icon name="twemoji:scroll" />
+              <Icon name="twemoji:joker" />
               <Icon name="twemoji:rolled-up-newspaper" />
               <Icon name="twemoji:open-book" />
               <Icon name="twemoji:hourglass-done" />
@@ -102,7 +102,7 @@ definePageMeta({
           </DescriptiveItem>
           <DescriptiveItem title="what i love to do?"
             description="think, design, code, learn, build, socialize, talk, think, feel... any type of creative activity.">
-            <Icon name="fluent-emoji-flat:shooting-star" size="36" />
+            <Icon name="twemoji:glowing-star" size="36" />
           </DescriptiveItem>
           <DescriptiveItem title="for whom?" description="myself, and then everyone.">
             <Icon name="twemoji:people-hugging" size="36" />
@@ -124,7 +124,7 @@ definePageMeta({
       <h2>story</h2>
       <p>
         <span class="paragraph-tagline">
-          <Icon name="fluent-emoji-flat:baby-light" />
+          <Icon name="fluent-emoji-flat:baby-light" size="36" />
         </span>
         i was a <i>curious</i> and <i>artistic</i> child, and my mom did teach me how to read and write when I was
         <strong>3</strong>. i loved tinkering with gadgets, to understand how they work and how to build my own things.
@@ -135,25 +135,30 @@ definePageMeta({
       </p>
       <p>
         <span class="paragraph-tagline">
-          <Icon name="fluent-emoji-flat:school" />
+          <Icon name="fluent-emoji-flat:school" size="36" />
         </span>
         when i started elementary school, i spent my whole time <b>reading about history</b> and
-        <b>picturing the moments</b>, battle scenes, maps which I just read.
+        <b>picturing the moments</b>, drawing battle scenes, maps, events which I just read.
         this was exciting until i realized that how tables can turn so quickly.
       </p>
+
       <Quote message="
         For the loser now
       / Will be later to win
       / For the times they are a-changin'" owner="bob dylan" />
+
       <h3>New beginnings...</h3>
-      <p>I started programming when I was <strong>10</strong>, and this was a milestone in my journey. You write the
-        code, and let everyone use it. What you can do is only limited by your skills and your imagination. My
-        secondary
-        school years were spent on personal projects.</p>
-      <p>After a boring exam year, I entered <strong>Vefa Lisesi</strong>, a historical high school in Istanbul. Then
-        I
-        discovered <strong>the Web</strong>, and started writing for it. Incredible. There also I met Berk, who is a
-        fellow of <a href="https://dorkodu.com">Dorkodu</a>.</p>
+      <p>I started programming when I was <strong>10</strong>, and this was a milestone in my journey.
+        You write the code, and let everyone use it.
+        What you can do is only limited by your skills and your imagination.
+        My secondary school years were spent on personal projects.
+      </p>
+      <p>
+        After a boring but successful exam year, I entered <strong>Vefa Lisesi</strong>,
+        a historical high school in Istanbul .
+        Then I discovered <strong>the Web</strong>, and started writing for it.
+        Incredible. There also I met Berk, who is a fellow of <a href="https://dorkodu.com">Dorkodu</a>.
+      </p>
       <h3>Dorkodu: Revolutions</h3>
       <p>Dorkodu was born when I first branded all my work under the name of "Dorkodu", I was in secondary school
         then.
@@ -181,4 +186,5 @@ definePageMeta({
 </template>
 
 <style lang="scss" scoped>
+
 </style>

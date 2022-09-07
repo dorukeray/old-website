@@ -60,11 +60,11 @@ definePageMeta({
         <span>who i am?</span>
         <Icon name="fluent-emoji-flat:thinking-face" size="36" />
       </h2>
-      <h4>...or why you should care?</h4>
+      <h4>and why you should care?</h4>
       <p style="font-size: 1.25rem; margin: 0;">
         <span class="paragraph-tagline">i want to...</span>
-        <br>build the utopian dream of heaven on earth,
-        <br>create a free and happy life experience, for everyone,
+        <br>build the utopian dream of heaven on earth;
+        <br>create a free and happy life experience, for everyone;
         <br><b>liberate the human with meaningful technology.</b>
       </p>
       <p>

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Icon1 from 'nuxt-icon/dist/runtime/Icon.vue';
 let page = {
   title: "ideas",
   tagline: "i feel, therefore i am human.",
@@ -19,7 +20,7 @@ const quotes: [string, string][] = [
   ["Have the courage to follow your heart and intuition. They somehow already know what you truly want to become. Everything else is secondary.", "steve jobs"],
   ["A man is a success if he gets up in the morning and gets to bed at night, and in between he does what he wants to do.", "Bob Dylan"],
   ["If something is important enough, you should still do it even if the odds are not in your favor.", "Elon Musk"],
-  [`Victory is for those who can say "Victory is mine". Success is for those who can begin saying "I will succeed" and say "I have succeeded" in the end.`, "Mustafa Kemal Atatürk"],
+  [`The biggest battle is the war against ignorance.`, "Mustafa Kemal Atatürk"],
   ["You have to let it all go, Neo. Fear, doubt, and disbelief. Free your mind.", "the matrix"],
   ["The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.", "Albert Camus"],
   ["tongue-tied and twisted, just an earth-bound misfit, i.", "pink floyd"],
@@ -47,8 +48,11 @@ const quotes: [string, string][] = [
         <Picture :source="page.picture.source" />
       </template>
     </Showcase>
+
     <article>
-      <h2>i love being myself...</h2>
+      <h2>i love being myself
+        <Icon name="fluent-emoji-flat:smiling-face" />
+      </h2>
       <p>
         ...and i love being alive. i somehow feel wonderful, being connected to other people,
         and it's really hard to choose just a few from a billion things which influenced me.
@@ -57,9 +61,77 @@ const quotes: [string, string][] = [
         <Icon name="twemoji:sparkles" size="24" />
       </p>
     </article>
+
+    <article id="thanks">
+      <h2>
+        thanks
+        <Icon name="fluent-emoji-flat:smiling-face-with-halo" />
+      </h2>
+      <p>
+        these are my insprations which shaped my life, character,
+        and if i will be able to use their gift;
+        i may change destiny of the entire world, for the better.
+      </p>
+      <Bulletpoint icon="twemoji:heart-decoration">
+        <h4 class="bulletpoint-title">idols</h4>
+        <ul style="margin: .25rem .5rem !important;">
+          <li><b>steve jobs</b> — hero of silicon valley.</li>
+          <li><b>pink floyd</b> — greatest rock band.</li>
+          <li><b>atatürk</b> — father of modern turkey.</li>
+          <li><b>syd barrett</b> — psychedelic music.</li>
+          <li><b>bob dylan</b> — poet & voice of freedom.</li>
+          <li><b>isaac newton</b> — the last alchemist.</li>
+          <li><b>dieter rams</b> — industrial design guru.</li>
+          <li><b>tim berners-lee</b> — world wide web.</li>
+          <li><b>aaron swartz</b> — true son of the internet.</li>
+        </ul>
+      </Bulletpoint>
+      <Break />
+      <CardDeck :columns="3">
+        <img src="/images/idols/steve.jpg" alt="steve jobs">
+        <img src="/images/idols/floyd.jpg" alt="pink floyd">
+        <img src="/images/idols/ataturk.jpg" alt="mustafa kemal atatürk">
+        <img src="/images/idols/syd.jpg" alt="syd barrett">
+        <img src="/images/idols/dylan.jpg" alt="bob dylan">
+        <img src="/images/idols/newton.jpg" alt="isaac newton">
+        <img src="/images/idols/rams.jpg" alt="dieter rams">
+        <img src="/images/idols/tim.jpg" alt="tim berners-lee">
+        <img src="/images/idols/aaron.jpg" alt="aaron swartz">
+      </CardDeck>
+      <Break />
+      <Bulletpoint icon="fluent-emoji-flat:musical-score">
+        <h4 class="bulletpoint-title">music</h4>
+        <ul style="margin: .25rem .5rem !important;">
+          <li>
+            <b>pink floyd</b> — an english progressive-psychedelic rock band.
+            a true artistic approach to rock genre with
+            intense sonic universe,
+            experimentation,
+            philosophical lyrics,
+            extended compositions
+            and elaborate live shows.
+          </li>
+        </ul>
+      </Bulletpoint>
+      <Bulletpoint icon="twemoji:video-game">
+        <h4 class="bulletpoint-title">games</h4>
+        <p></p>
+        <ul style="margin: .25rem .5rem !important;">
+          <li>
+            <b>empire earth</b> — real time strategy.
+            the best.
+            start off at stone age and finish with cyborgs.
+            play ottomans, ancient rome or soviet-usa space race.
+            more fun than chess. think civilization and age of empires had a baby!
+          </li>
+        </ul>
+      </Bulletpoint>
+    </article>
+
     <article>
       <h3>
-        <Icon name="noto:speech-balloon" size="32" /> quotes
+        <Icon name="noto:speech-balloon" size="32" />
+        quotes
       </h3>
     </article>
 
@@ -68,9 +140,7 @@ const quotes: [string, string][] = [
       <Quote v-for="quote in quotes" :message="quote[0]" :owner="quote[1]" />
     </CardDeck>
 
-    <article id="thanks">
-      <h2>thanks</h2>
-    </article>
+    <Break />
 
     <Page:Legend />
 
@@ -79,4 +149,18 @@ const quotes: [string, string][] = [
 </template>
 
 <style lang="scss" scoped>
+@import "scss/styles.scss";
+
+.CardDeck {
+  margin: 0 auto;
+}
+
+.Bulletpoint {
+  margin-bottom: .5rem;
+}
+
+.bulletpoint-title {
+  color: $system-color-neutral-70 !important;
+  text-decoration: underline;
+}
 </style>

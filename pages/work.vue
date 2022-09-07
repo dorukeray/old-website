@@ -2,7 +2,7 @@
 
 const page = {
   title: "my work",
-  tagline: "the founder, product polymath, artisan, software craftsman.",
+  tagline: "the founder, product polymath, designer, software craftsman.",
   statement: `a portfolio of my work; from startup, products and open source; to software and design.`,
   picture: {
     source: "/images/unboxing.png",
@@ -12,7 +12,7 @@ const page = {
 
 definePageMeta({
   title: "my work",
-  description: `founder, product polymath, lunatic.`,
+  description: `founder, product polymath, craftsman.`,
   keywords: `doruk eray, doruk, eray, mr. dorkodu, d0rukeray`,
 });
 </script>
@@ -24,7 +24,18 @@ definePageMeta({
           <template #content>
             <p class="hashtag">#gamification #productivity #social #knowledge #web3 #cryptoeconomics #ui #ux #frontend
             </p>
-            <p style="font-size: 1.5rem">👑🗽💸💻🔗💿📚🎨🎮🛠️📝</p>
+            <p style="font-size: 1.75rem">
+              <Icon name="twemoji:crown" />
+              <Icon name="twemoji:statue-of-liberty" />
+              <Icon name="twemoji:money-with-wings" />
+              <Icon name="fluent-emoji-flat:laptop" />
+              <Icon name="twemoji:computer-disk" />
+              <Icon name="twemoji:books" />
+              <Icon name="twemoji:artist-palette" />
+              <Icon name="twemoji:video-game" />
+              <Icon name="fluent-emoji-flat:hammer-and-wrench" />
+              <Icon name="twemoji:memo" />
+            </p>
           </template>
         </Hero>
       </template>
@@ -36,8 +47,8 @@ definePageMeta({
     <Break />
 
     <article>
-      <p style="font-size: 1.5rem; font-weight: 600; text-align:center; text-shadow: #fff 3px 1px 0;"
-        class="dorkodian-hero">
+      <p style="font-size: 1.5rem; font-weight: 600; text-align:center; text-shadow: #fff 3px 1px 0; border-radius: 1rem;"
+        class="--dorkodian">
         🚧&nbsp; under construction &nbsp;🚧
       </p>
     </article>
@@ -75,54 +86,7 @@ definePageMeta({
       <h4>{ leadership }</h4>
     </article>
 
-    <article>
-      <h3 class="section-title">📡 contact</h3>
-      <p style="margin: 0; text-align: center;">want to have a talk? <b>let's get in touch! 🤙🏻</b></p>
-      <CardDeck :columns="2">
-        <li class="IconItem">
-          <Icon name="tabler:brand-twitter" />
-          <div>
-            <span><a href="https://twitter.com/d0rukeray">d0rukeray</a></span>
-            <span><b>twitter</b> (tweets & dm)</span>
-          </div>
-        </li>
-        <li class="IconItem">
-          <Icon name="tabler:brand-telegram" />
-          <div>
-            <span><a href="https://t.me/dorukeray">dorukeray</a></span>
-            <span><b>telegram</b> (1:1 messages)</span>
-          </div>
-        </li>
-        <li class="IconItem">
-          <Icon name="tabler:brand-github" />
-          <div>
-            <span><a href="https://github.com/dorukeray">dorukeray</a></span>
-            <span><b>github</b> (open source)</span>
-          </div>
-        </li>
-        <li class="IconItem">
-          <Icon name="tabler:brand-instagram" />
-          <div>
-            <span><a href="https://instagram.com/d0rukeray">d0rukeray</a></span>
-            <span><b>instagram</b> (social life)</span>
-          </div>
-        </li>
-        <li class="IconItem">
-          <Icon name="tabler:brand-discord" />
-          <div>
-            <span><a href="https://discord.com/users/990571541026734080">dorukeray#5097</a></span>
-            <span><b>discord</b> (community chat)</span>
-          </div>
-        </li>
-        <li class="IconItem">
-          <Icon name="tabler:brand-mail-opened" />
-          <div>
-            <span><a href="mailto:doruk@dorkodu.com">doruk@dorkodu.com</a></span>
-            <span><b>email</b> (no, please)</span>
-          </div>
-        </li>
-      </CardDeck>
-    </article>
+    <Page:Contact />
 
     <Break />
 

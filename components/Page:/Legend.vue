@@ -5,7 +5,7 @@
       <div>
         <p>
           <Icon name="twemoji:house-with-garden" size="30" />&nbsp;&nbsp;
-          see <a href="/story">home</a> page for tl;dr.
+          see <a href="/story">home</a> page for <b>tl;dr</b>.
         </p>
         <p>
           <Icon name="twemoji:open-book" size="30" />&nbsp;&nbsp;
