@@ -16,7 +16,7 @@ definePageMeta({
   keywords: `doruk eray, doruk, eray, mr. dorkodu, d0rukeray`,
 });
 </script>
-
+  
 <template>
   <main>
     <Showcase style="margin-top: 0;">
@@ -81,18 +81,22 @@ definePageMeta({
       <Bulletpoint icon="twemoji:leaf-fluttering-in-wind">
         <p>
           i'm the <b>founder & chief</b> of <a href="https://dorkodu.com">dorkodu</a>,
-          a humane technology company where we create products for gamified experiences; pursuing our mission together.
+          a humane technology company where we create products using gamification; pursue our mission together.
         </p>
       </Bulletpoint>
       <Bulletpoint icon="noto:technologist-light-skin-tone">
-        <p>i have <b>8+</b> years of rich experience in <b>software</b>, since i was <b>10</b>!</p>
-        <p>my focus is on <b>web</b> platform, for <b>product, front-end, ui/ux</b>.</p>
+        <p>i have <b>8+</b> years of rich experience in <b>software</b>, in many languages & platforms including web,
+          desktop and games; since i was <b>10</b>!</p>
+        <p>my focus is on <b>web</b> platform, doing <b>product, front-end, ui/ux</b>.</p>
         <p>i am fluent in acronyms
-          <Icon name="twemoji:brain" size="24" /> <b>javascript, html + css, php</b>.
+          <Icon name="twemoji:brain" size="24" /> <b> js, html, css, php</b>.
         </p>
       </Bulletpoint>
       <Bulletpoint icon="fluent-emoji-flat:school">
-        <p>i study at <b>vefa lisesi</b>, a historical high school in istanbul 🇹🇷</p>
+        <p>
+          i study at <b>vefa lisesi</b>, a historical high school in istanbul
+          <Icon name="emojione:flag-for-turkey" size="26" />
+        </p>
       </Bulletpoint>
       <Bulletpoint icon="fluent-emoji-flat:man-teacher-light">
         <p><b>i'm proudly a self-taught. this is my superpower.</b>
@@ -173,7 +177,8 @@ definePageMeta({
     <Break />
   </main>
 </template>
-
+  
 <style lang="scss">
 @import "scss/styles.scss";
 </style>
+  

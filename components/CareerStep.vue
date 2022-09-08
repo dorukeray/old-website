@@ -2,7 +2,7 @@
   <div class="CareerStep">
     <p v-if="time" class="time">{{ time }}</p>
     <p>
-      <span v-if="title" class="title">{{ title }}</span>
+      <span v-if="title" class="title">{{ title }}</span>&nbsp;
       <span v-if="location" class="location">{{ location }}</span>
     </p>
     <p v-if="description">{{ description }}</p>
@@ -26,7 +26,7 @@ const { time, title, location, description }
   display: flex;
   flex-direction: column;
   gap: .25rem;
-  margin: 1rem 0;
+  margin: .5rem 0 !important;
 
   p {
     font-size: 1.05rem;

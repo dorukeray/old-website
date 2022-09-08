@@ -26,6 +26,23 @@ const quotes: [string, string][] = [
   ["tongue-tied and twisted, just an earth-bound misfit, i.", "pink floyd"],
   ["to be great is to be misunderstood.", "Ralph Waldo Emerson"],
 ];
+
+const books: {
+  title: string;
+  author: string;
+  comment: string;
+}[] = [
+    {
+      title: "the alchemist",
+      author: "paulo coelho",
+      comment: "my favorite book ever. truely a masterpiece, telling the inspiring story of a shepherd boy and his mystical quest for a worldly treasure, meaning and peace. i read it every summer, it helps me remember who i am, and inspires my work."
+    },
+    {
+      title: "steve jobs",
+      author: "walter isaacson",
+      comment: "the biography of my idol; having read this book in 2 languages and 5+ times; i see it as a bible, a compass for my work, career and life."
+    }
+  ];
 </script>
 
 <template>
@@ -54,7 +71,7 @@ const quotes: [string, string][] = [
         <Icon name="fluent-emoji-flat:smiling-face" />
       </h2>
       <p>
-        ...and i love being alive. i somehow feel wonderful, being connected to other people,
+        i love being alive. i somehow feel wonderful, being connected to other people,
         and it's really hard to choose just a few from a billion things which influenced me.
       </p>
       <p>so please try to check this page often for inspirations!
@@ -75,15 +92,15 @@ const quotes: [string, string][] = [
       <Bulletpoint icon="twemoji:heart-decoration">
         <h4 class="bulletpoint-title">idols</h4>
         <ul style="margin: .25rem .5rem !important;">
-          <li><b>steve jobs</b> — hero of silicon valley.</li>
-          <li><b>pink floyd</b> — greatest rock band.</li>
+          <li><b>steve jobs</b> — personal hero, innovator, founder.</li>
+          <li><b>pink floyd</b> — the greatest progressive rock band.</li>
           <li><b>atatürk</b> — father of modern turkey.</li>
-          <li><b>syd barrett</b> — psychedelic music.</li>
+          <li><b>syd barrett</b> — psychedelic/crazy diamond.</li>
           <li><b>bob dylan</b> — poet & voice of freedom.</li>
           <li><b>isaac newton</b> — the last alchemist.</li>
-          <li><b>dieter rams</b> — industrial design guru.</li>
-          <li><b>tim berners-lee</b> — world wide web.</li>
-          <li><b>aaron swartz</b> — true son of the internet.</li>
+          <li><b>dieter rams</b> — grandmaster of industrial design.</li>
+          <li><b>tim berners-lee</b> — inventor of www.</li>
+          <li><b>aaron swartz</b> — activist, hacker, true son of the internet.</li>
         </ul>
       </Bulletpoint>
       <Break />
@@ -125,6 +142,12 @@ const quotes: [string, string][] = [
             more fun than chess. think civilization and age of empires had a baby!
           </li>
         </ul>
+      </Bulletpoint>
+      <Bulletpoint icon="twemoji:books">
+        <h4 class="bulletpoint-title">books</h4>
+        <p>i love reading, mostly non-fiction, textbooks and papers :)</p>
+        <CareerStep v-for="(book, index) in books" :time="'#'+ (index + 1).toString()" :title="book.title"
+          :location="'— ' + book.author" :description="book.comment" />
       </Bulletpoint>
     </article>
 
