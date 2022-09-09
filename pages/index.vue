@@ -24,7 +24,7 @@ definePageMeta({
         <Hero :title="hero.title" :tagline="hero.tagline" :statement="hero.statement" style="margin-top: 0 !important;">
           <template #content>
             <p class="hashtag">#software #design #economics #art</p>
-            <p style="font-size: 1.85rem; margin-bottom: 0;">
+            <p style="font-size: 1.85rem;">
               <Icon name="twemoji:leaf-fluttering-in-wind" />
               <Icon name="fluent-emoji-flat:alien" />
               <Icon name="twemoji:crown" />
@@ -60,7 +60,7 @@ definePageMeta({
         <span>who i am?</span>
         <Icon name="fluent-emoji-flat:thinking-face" size="36" />
       </h2>
-      <h4>and why you should care?</h4>
+      <h3>and why you should care?</h3>
       <p style="font-size: 1.25rem; margin: 0;">
         <span class="paragraph-tagline">i want to...</span>
         <br>build the utopian dream of heaven on earth;

@@ -46,7 +46,6 @@ definePageMeta({
         <span>hello, again.</span>&nbsp;
         <Icon name="fluent-emoji-flat:waving-hand-light" size="36" />
       </h2>
-      <h4 style="#aabbcc">let's continue from where we left.</h4>
       <Bulletpoint icon="twemoji:leaf-fluttering-in-wind">
         <p style="font-size: 1.25rem; margin: 0; font-weight: 400;">
           <span class="paragraph-tagline">my purpose;</span>
@@ -56,7 +55,7 @@ definePageMeta({
       <Bulletpoint icon="twemoji:bullseye">
         <p style="font-size: 1.25rem; margin: 0; font-weight: 400;">
           <span class="paragraph-tagline">my mission;</span>
-          <br>create a free and happy life experience, for everyone,
+          <br>create a free and happy life experience for everyone,
           <br>build the utopian dream of heaven on earth,
           <br><b>...with meaningful technology.</b>
         </p>
@@ -65,14 +64,14 @@ definePageMeta({
     </article>
 
     <article>
-      <h4>why?</h4>
+      <h4> why?</h4>
       <p>
-        simple. <u>i want to live a free, happy and meaningful life.</u>
-        <br>i believe this is a fundemental right; a livable world & a life worth living.
-        <br>so we need to come together, and create this utopic dream life for everyone.
+        simple. <u>i want to live a free, happy and meaningful life.</u><br />
+        i believe this is a fundemental human right; a livable world & a life worth living.
+        so we need to come together, and create this utopic dream life for everyone.
       </p>
       <h4>how?</h4>
-      <p>i am doruk, a high-school kid passionate in products, design and software.
+      <p>i am passionate in products, design and software.
         i am an autodidact (self-taught) so i teach myself the arts of my work
         as well as my interest fields:
         <b>
@@ -84,7 +83,7 @@ definePageMeta({
           industrial design
         </b>
         and
-        <b>artificial intelligence</b>
+        <b>artificial intelligence</b>.
       </p>
       <p>
         i want to do meaningful and remarkable things, be remembered as an inventor, innovator, artist, a cult leader;
@@ -96,7 +95,7 @@ definePageMeta({
     <Showcase>
       <template #main>
         <DescriptiveList title="know thyself." message="you ask me these common questions. so here are my answers! ⬇️">
-          <DescriptiveItem title="who?"
+          <DescriptiveItem title="who i am?"
             description="thinker, leader, artist, inventor, designer, polymath, idol, revolutionist, entrepreneur.">
             <Icon name="fluent-emoji-flat:boy-light" size="36" />
           </DescriptiveItem>
@@ -104,7 +103,7 @@ definePageMeta({
             description="think, design, code, learn, build, socialize, talk, think, feel... any type of creative activity.">
             <Icon name="twemoji:glowing-star" size="36" />
           </DescriptiveItem>
-          <DescriptiveItem title="for whom?" description="myself, and then everyone.">
+          <DescriptiveItem title="... for whom?" description="myself, and then everyone.">
             <Icon name="twemoji:people-hugging" size="36" />
           </DescriptiveItem>
           <DescriptiveItem title="why?"
@@ -121,7 +120,10 @@ definePageMeta({
     <Break />
 
     <article>
-      <h2>story</h2>
+      <h2>
+        <Icon name="twemoji:open-book" size="36" />&nbsp;
+        story
+      </h2>
       <p>
         <span class="paragraph-tagline">
           <Icon name="fluent-emoji-flat:baby-light" size="36" />
@@ -148,30 +150,35 @@ definePageMeta({
       / For the times they are a-changin'" owner="bob dylan" />
 
       <h3>New beginnings...</h3>
-      <p>I started programming when I was <strong>10</strong>, and this was a milestone in my journey.
-        You write the code, and let everyone use it.
-        What you can do is only limited by your skills and your imagination.
+      <p>I learned to code when I was <strong>10</strong>, and this was a milestone in my journey.
+        You can build anything you want, and let everyone use it.
+        What you can do is limited only by your skills and imagination.
         My secondary school years were spent on personal projects.
       </p>
       <p>
         After a boring but successful exam year, I entered <strong>Vefa Lisesi</strong>,
-        a historical high school in Istanbul .
-        Then I discovered <strong>the Web</strong>, and started writing for it.
-        Incredible. There also I met Berk, who is a fellow of <a href="https://dorkodu.com">Dorkodu</a>.
+        a historical high school in Istanbul. There also I met my close friend <a href=""> Berk</a>, who joined me in
+        foundations of Dorkodu.
       </p>
-      <h3>Dorkodu: Revolutions</h3>
-      <p>Dorkodu was born when I first branded all my work under the name of "Dorkodu", I was in secondary school
-        then.
-        The name comes from <strong>"Doruk" + "code"</strong>.</p>
-      <p>When I saw the truth behind the Web, I asked this question myself : <strong>Do we really get the pure and
-          true
-          information from Web? No. All we get is some pages that others created.</strong> There is no chance to get
-        what/how exactly you want.</p>
-      <p>What if we had a <strong>universal knowledge resource</strong> that we can find, discover and exchange only
-        the
-        true, meaningful and useful information? The search results would be pure information pieces connected to each
-        other, gathered from the whole accumilation of open human knowledge.</p>
-      <p>This is what I dedicated the first part of my career to.</p>
+      <h3>Revolutions</h3>
+      <p>
+        <a href="https://dorkodu.com">Dorkodu</a>
+        was born when I first branded all my work under an umbrella title,
+        I was in secondary school back then.
+        The name is a mixture of <strong>"Doruk" + "code"</strong>.
+      </p>
+      <p>
+        i switched to developing for the internet platform, a moment of enlightment!
+        then i discovered the internet's unifying power;
+      </p>
+
+      <p>i thought... maybe there is still a room for improvement.</p>
+
+      <p>
+        i see <b>gamification</b> as a promising method we can use to fix broken parts of human systems & productivity;
+        and combined with technologies and values of <b>web 3.0</b> principles, we can free the internet!
+      </p>
+      <p>This is what I dedicated the first chapter of my career to.</p>
       <p>You can see <a href="https://dorkodu.com">Dorkodu</a> to learn more about our projects.</p>
     </article>
 

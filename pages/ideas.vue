@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import Icon1 from 'nuxt-icon/dist/runtime/Icon.vue';
 let page = {
   title: "ideas",
   tagline: "i feel, therefore i am human.",
@@ -31,16 +30,19 @@ const books: {
   title: string;
   author: string;
   comment: string;
+  img: string;
 }[] = [
     {
       title: "the alchemist",
       author: "paulo coelho",
-      comment: "my favorite book ever. truely a masterpiece, telling the inspiring story of a shepherd boy and his mystical quest for a worldly treasure, meaning and peace. i read it every summer, it helps me remember who i am, and inspires my work."
+      comment: "my favorite book ever. truely a masterpiece, telling the inspiring story of a shepherd boy and his mystical quest for a worldly treasure, meaning and peace. i read it every summer, it helps me remember who i am, and inspires my work.",
+      img: "/images/book-thealchemist.jpg",
     },
     {
       title: "steve jobs",
       author: "walter isaacson",
-      comment: "the biography of my idol; having read this book in 2 languages and 5+ times; i see it as a bible, a compass for my work, career and life."
+      comment: "the biography of my idol; having read this book in 2 languages and 5+ times; i see it as a bible, a compass for my work, career and life.",
+      img: "/images/book-stevejobs.jpg",
     }
   ];
 </script>
@@ -129,19 +131,20 @@ const books: {
             and elaborate live shows.
           </li>
         </ul>
+        <Picture source="/images/tdsotm.jpg" title="dark side of the moon" />
       </Bulletpoint>
       <Bulletpoint icon="twemoji:video-game">
         <h4 class="bulletpoint-title">games</h4>
         <p></p>
         <ul style="margin: .25rem .5rem !important;">
           <li>
-            <b>empire earth</b> — real time strategy.
-            the best.
-            start off at stone age and finish with cyborgs.
-            play ottomans, ancient rome or soviet-usa space race.
-            more fun than chess. think civilization and age of empires had a baby!
+            <b>empire earth</b> — best real time strategy.
+            lead your civilization in timeline; imperial, military, economic and cultural campaigns.
+            start in stone age villages and finish with space colonies.
+            more fun than chess!
           </li>
         </ul>
+        <Picture source="/images/ee2.jpg" title="empire earth ii." />
       </Bulletpoint>
       <Bulletpoint icon="twemoji:books">
         <h4 class="bulletpoint-title">books</h4>
@@ -149,6 +152,11 @@ const books: {
         <CareerStep v-for="(book, index) in books" :time="'#'+ (index + 1).toString()" :title="book.title"
           :location="'— ' + book.author" :description="book.comment" />
       </Bulletpoint>
+      <Break />
+      <CardDeck :columns="2">
+        <Picture v-for="(book, index) in books" :source="book.img" />
+      </CardDeck>
+      <Break />
     </article>
 
     <article>

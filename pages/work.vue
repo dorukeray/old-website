@@ -47,14 +47,16 @@ definePageMeta({
     <Break />
 
     <article>
-      <p style="font-size: 1.5rem; font-weight: 600; text-align:center; text-shadow: #fff 3px 1px 0; border-radius: 1rem;"
-        class="--dorkodian">
-        🚧&nbsp; under construction &nbsp;🚧
-      </p>
+      <SectionRuler />
+      <h3>
+        <Icon name="twemoji:hourglass-done" size="36" />&nbsp;
+        <span style="text-shadow: #dde 5px 2px 1px;">work in progress...</span>
+      </h3>
+      <SectionRuler />
     </article>
 
     <article>
-      <h4>open source</h4>
+      <h2>open source</h2>
       <CardDeck :columns="2">
         <img
           src="https://raw.githubusercontent.com/dorukeray/github-stats/master/generated/overview.svg#gh-light-mode-only"
