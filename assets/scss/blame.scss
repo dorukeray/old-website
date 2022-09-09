@@ -26,10 +26,8 @@
   stroke-width: 2.25;
 }
 
-article {
-  .Picture {
-    padding: 1rem 0 !important;
-  }
+article > .Picture {
+  padding: 1rem 0 !important;
 }
 
 .section-icon {

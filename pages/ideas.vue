@@ -135,7 +135,6 @@ const books: {
       </Bulletpoint>
       <Bulletpoint icon="twemoji:video-game">
         <h4 class="bulletpoint-title">games</h4>
-        <p></p>
         <ul style="margin: .25rem .5rem !important;">
           <li>
             <b>empire earth</b> — best real time strategy.
@@ -144,8 +143,20 @@ const books: {
             more fun than chess!
           </li>
         </ul>
-        <Picture source="/images/ee2.jpg" title="empire earth ii." />
       </Bulletpoint>
+      <Picture source="/images/game-ee2.jpg" title="empire earth ii." />
+      <!--
+      <br>
+      <CardDeck :columns="3">
+        <Picture source="/images/game-halo.jpg" />
+        <Picture source="/images/game-gtavc.jpg" />
+        <Picture source="/images/game-gtasa.jpg" />
+        <Picture source="/images/game-terraria.jpg" />
+        <Picture source="/images/game-cod2.jpg" />
+      </CardDeck>
+      <br>
+      <br>
+      -->
       <Bulletpoint icon="twemoji:books">
         <h4 class="bulletpoint-title">books</h4>
         <p>i love reading, mostly non-fiction, textbooks and papers :)</p>

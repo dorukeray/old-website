@@ -89,7 +89,7 @@ definePageMeta({
           desktop and games; since i was <b>10</b>!</p>
         <p>my focus is on <b>web</b> platform, doing <b>product, front-end, ui/ux</b>.</p>
         <p>i am fluent in acronyms
-          <Icon name="twemoji:brain" size="24" /> <b> js, html, css, php</b>.
+          <Icon name="twemoji:brain" size="24" /> <b> js, ts, html, css, php</b>.
         </p>
       </Bulletpoint>
       <Bulletpoint icon="fluent-emoji-flat:school">
@@ -161,7 +161,8 @@ definePageMeta({
         </p>
       </Bulletpoint>
       <Bulletpoint icon="twemoji:globe-showing-americas">
-        <p>it's part of my mission to help save the destiny of human civilization by contributing to areas like
+        <p>
+          it's part of my mission to help save the destiny of human civilization by contributing to areas like
           <b>agriculture, water, green energy, space, education, genetics</b> and <b>ai</b>; in near future.
         </p>
       </Bulletpoint>

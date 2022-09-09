@@ -72,8 +72,7 @@ definePageMeta({
       </p>
       <h4>how?</h4>
       <p>i am passionate in products, design and software.
-        i am an autodidact (self-taught) so i teach myself the arts of my work
-        as well as my interest fields:
+        i am an autodidact (self-taught) so i teach myself the arts of my work:
         <b>
           gamification,
           web 3.0,
@@ -86,15 +85,16 @@ definePageMeta({
         <b>artificial intelligence</b>.
       </p>
       <p>
-        i want to do meaningful and remarkable things, be remembered as an inventor, innovator, artist, a cult leader;
-        or in a single word, as a <u><b>protagonist</b></u> in the story of human.
+        i want to achieve a meaningful life, be remembered as an inventor, innovator, artist, a cult leader;
+        or in a single word, a <u><b>protagonist</b></u> in the story of human.
       </p>
     </article>
 
     <Break />
     <Showcase>
       <template #main>
-        <DescriptiveList title="know thyself." message="you ask me these common questions. so here are my answers! ⬇️">
+        <DescriptiveList title="know thyself."
+          message="you will probably ask me these common questions. so here is, what i think about myself and life.">
           <DescriptiveItem title="who i am?"
             description="thinker, leader, artist, inventor, designer, polymath, idol, revolutionist, entrepreneur.">
             <Icon name="fluent-emoji-flat:boy-light" size="36" />
@@ -124,6 +124,7 @@ definePageMeta({
         <Icon name="twemoji:open-book" size="36" />&nbsp;
         story
       </h2>
+      <p style="text-align: center;">(shortened, w.i.p.)</p>
       <p>
         <span class="paragraph-tagline">
           <Icon name="fluent-emoji-flat:baby-light" size="36" />
@@ -150,36 +151,57 @@ definePageMeta({
       / For the times they are a-changin'" owner="bob dylan" />
 
       <h3>New beginnings...</h3>
-      <p>I learned to code when I was <strong>10</strong>, and this was a milestone in my journey.
+      <p>
+        <span class="paragraph-tagline">
+          <Icon name="twemoji:laptop" size="28" />
+        </span>&nbsp;
+        I learned to code when I was <strong>10</strong>, and this was a milestone in my journey.
         You can build anything you want, and let everyone use it.
         What you can do is limited only by your skills and imagination.
-        My secondary school years were spent on personal projects.
+      </p>
+      <p>
+        My secondary school years were spent on a <b>search for meaning</b> for my life:
+        <b>personal projects</b> and
+        <b>technical/artistic experimentation</b>, just curiosity.
       </p>
       <p>
         After a boring but successful exam year, I entered <strong>Vefa Lisesi</strong>,
-        a historical high school in Istanbul. There also I met my close friend <a href=""> Berk</a>, who joined me in
-        foundations of Dorkodu.
+        a historical high school in Istanbul. There also I met my close friend <a href="berk.dorkodu.com">Berk</a>, who
+        joined me with the foundations of Dorkodu.
       </p>
       <h3>Revolutions</h3>
       <p>
+        <span class="paragraph-tagline">
+          <Icon name="twemoji:leaf-fluttering-in-wind" size="36" />
+        </span>&nbsp;
         <a href="https://dorkodu.com">Dorkodu</a>
         was born when I first branded all my work under an umbrella title,
         I was in secondary school back then.
         The name is a mixture of <strong>"Doruk" + "code"</strong>.
       </p>
       <p>
-        i switched to developing for the internet platform, a moment of enlightment!
-        then i discovered the internet's unifying power;
+        i switched to developing software products and technologies for the internet platform.
+        <i>eureka!</i> a moment of enlightment.
+        <Icon name="twemoji:sparkles" size="20" />
+        then i discovered the internet's unifying power for our civilization.
       </p>
 
-      <p>i thought... maybe there is still a room for improvement.</p>
+      <p>i thought...<br>maybe there is still a room for improvement.</p>
 
       <p>
         i see <b>gamification</b> as a promising method we can use to fix broken parts of human systems & productivity;
-        and combined with technologies and values of <b>web 3.0</b> principles, we can free the internet!
+        and combined with the <b>humane spirit</b> in technology and design, <u><b>we can free the internet.</b></u>
       </p>
       <p>This is what I dedicated the first chapter of my career to.</p>
-      <p>You can see <a href="https://dorkodu.com">Dorkodu</a> to learn more about our projects.</p>
+      <p style="display: flex;">
+        <Icon name="twemoji:victory-hand-light-skin-tone" size="28" />
+        <b>to be continued...</b>
+      </p>
+      <SectionRuler />
+      <p>
+        You can visit <a href="https://dorkodu.com">Dorkodu's website</a>
+        to learn more about who we are and what we do.
+      </p>
     </article>
 
     <Page:Contact />
