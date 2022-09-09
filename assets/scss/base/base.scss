@@ -85,10 +85,10 @@ h6 {
   letter-spacing: -.025rem;
   text-rendering: optimizelegibility;
   font-family: $system-typescale-headline-font;
+  margin-bottom: .5rem;
 }
 
 @supports (font-stretch: 100%) {
-
   h1,
   h2,
   h3,
@@ -100,20 +100,24 @@ h6 {
 }
 
 h1 {
-  font-weight: 900;
-}
-
-h2 {
   font-weight: 800;
 }
 
-h3 {
+h2 {
   font-weight: 700;
+}
+
+h3 {
+  font-weight: 650;
 }
 
 h4,
 h5 {
   font-weight: 600;
+}
+
+h6 {
+  font-weight: 500;
 }
 
 ul {
@@ -168,20 +172,17 @@ article {
 
     }
   }
-
-
-  h1,
-  h2,
-  h3,
-  h4 {
-    padding: 0 .5rem;
-    padding-right: 1rem;
-    margin: .75rem 0;
+  
+  h1,h2,h3 {
     text-align: center;
   }
 
+  h4, h5, h6 {
+    padding: 0 .5rem;
+  }
+
   h1 {
-    font-size: 1.875rem;
+    font-size: 1.95rem;
   }
 
   h2 {
@@ -189,7 +190,7 @@ article {
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.55rem;
   }
 
   h4 {
@@ -205,10 +206,10 @@ article {
   }
 
   p {
-    padding: 1rem .5rem;
-    padding-left: .75rem;
+    margin: .5rem;
+    margin-bottom: 1rem;
     font-size: 1.15rem;
-    line-height: 125%;
+    line-height: 1.25;
     text-align: left;
 
     a {
@@ -226,7 +227,7 @@ article {
     width: 100%;
     max-width: none;
 
-    .picture,
+    .Picture,
     >p {
       width: 60%;
       margin: .5rem auto;
@@ -243,9 +244,6 @@ span.--highlight {
   line-height: 125%;
 }
 
-@media (min-width: $system-viewpoint-desktop-S) {
-  article>p {
-    padding: .5rem;
-    padding-left: 1.5rem;
-  }
+strong, b {
+  font-weight: 600 !important;
 }

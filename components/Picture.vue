@@ -6,16 +6,16 @@ let { source, title } = defineProps<{
 </script>
 
 <template>
-  <div class="picture">
+  <div class="Picture">
     <img :src="source" :alt="title" :title="title" />
-    <p v-if="title !== ``">{{ title }}</p>
+    <p v-if="title && title !== ``">{{ title }}</p>
   </div>
 </template>
 
 <style lang="scss" scoped>
 @import "scss/styles.scss";
 
-.picture {
+.Picture {
   display: block;
   text-align: center !important;
   margin: 0 auto !important;
@@ -43,13 +43,13 @@ let { source, title } = defineProps<{
 }
 
 @media (min-width: $system-viewpoint-mobile-XL) {
-  .picture {
+  .Picture {
     max-width: 95%;
   }
 }
 
 @media (min-width: $system-viewpoint-tablet) {
-  .picture {
+  .Picture {
     max-width: 36rem;
   }
 }

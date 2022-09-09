@@ -12,18 +12,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: bold;
-  margin: 0;
-  margin-bottom: 1rem;
   line-height: 1.25;
 
   a {
     font-weight: inherit;
+    line-height: inherit;
   }
-}
-
-p {
-  margin-bottom: 1rem;
 }
 
 // Text Styles

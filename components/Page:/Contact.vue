@@ -1,10 +1,10 @@
 <template>
   <article>
-    <h3 class="section-title">
+    <h3 style="margin-bottom: .5rem;">
       <Icon name="twemoji:satellite" size="36" />&nbsp;
       contact
     </h3>
-    <p style="margin: 0; text-align: center;">want to have a talk? <b>let's get in touch!
+    <p style="margin: 0; margin-bottom: .5rem; text-align: center;">want to have a talk? <b>let's get in touch!
         <Icon name="fluent-emoji-flat:call-me-hand-light" size="24" />
       </b></p>
     <CardDeck :columns="2">
@@ -57,4 +57,5 @@
 
 </script>
 <style lang="scss" scoped>
+
 </style>

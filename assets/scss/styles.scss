@@ -10,5 +10,8 @@
 @import "base/fonts";
 @import "base/typography";
 
-// Vendor
-@import "vendor/__index";
+// Blame styles for website specific
+@import "blame";
+
+// normalize vendor
+@import "normalize";
