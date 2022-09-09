@@ -105,15 +105,15 @@ const books: {
       </Bulletpoint>
       <Break />
       <CardDeck :columns="3">
-        <img src="/images/idols/steve.jpg" alt="steve jobs">
-        <img src="/images/idols/floyd.jpg" alt="pink floyd">
-        <img src="/images/idols/ataturk.jpg" alt="mustafa kemal atatürk">
-        <img src="/images/idols/syd.jpg" alt="syd barrett">
-        <img src="/images/idols/dylan.jpg" alt="bob dylan">
-        <img src="/images/idols/newton.jpg" alt="isaac newton">
-        <img src="/images/idols/rams.jpg" alt="dieter rams">
-        <img src="/images/idols/tim.jpg" alt="tim berners-lee">
-        <img src="/images/idols/aaron.jpg" alt="aaron swartz">
+        <Picture source="/images/idols/steve.jpg" />
+        <Picture source="/images/idols/floyd.jpg" />
+        <Picture source="/images/idols/ataturk.jpg" />
+        <Picture source="/images/idols/syd.jpg" />
+        <Picture source="/images/idols/dylan.jpg" />
+        <Picture source="/images/idols/newton.jpg" />
+        <Picture source="/images/idols/rams.jpg" />
+        <Picture source="/images/idols/tim.jpg" />
+        <Picture source="/images/idols/aaron.jpg" />
       </CardDeck>
       <Break />
       <Bulletpoint icon="fluent-emoji-flat:musical-score">

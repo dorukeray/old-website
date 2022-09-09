@@ -1,6 +1,6 @@
 <template>
   <div :class="'CardDeck' + attrs">
-    <slot></slot>
+    <slot />
   </div>
 </template>
 <script setup lang="ts">
