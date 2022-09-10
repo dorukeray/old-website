@@ -120,15 +120,18 @@ const books: {
       <Break />
       <Bulletpoint icon="fluent-emoji-flat:musical-score">
         <h4 class="bulletpoint-title">music</h4>
+        <CareerStep time="#1" title="pink floyd" location="— favorite band" description="
+        an english progressive-psychedelic rock band.
+        a true artistic approach to rock genre with
+        intense sonic universe,
+        experimentation,
+        philosophical lyrics,
+        extended compositions
+        and elaborate live shows." />
+
         <ul style="margin: .25rem .5rem !important;">
           <li>
-            <b>pink floyd</b> — an english progressive-psychedelic rock band.
-            a true artistic approach to rock genre with
-            intense sonic universe,
-            experimentation,
-            philosophical lyrics,
-            extended compositions
-            and elaborate live shows.
+            <b></b>
           </li>
         </ul>
         <Picture source="/images/tdsotm.jpg" title="dark side of the moon" />

@@ -124,7 +124,7 @@ definePageMeta({
         <Icon name="twemoji:open-book" size="36" />&nbsp;
         story
       </h2>
-      <p style="text-align: center;">(shortened, w.i.p.)</p>
+      <p style="text-align: center;">(shortened)</p>
       <p>
         <span class="paragraph-tagline">
           <Icon name="fluent-emoji-flat:baby-light" size="36" />
@@ -185,9 +185,7 @@ definePageMeta({
         <Icon name="twemoji:sparkles" size="20" />
         then i discovered the internet's unifying power for our civilization.
       </p>
-
       <p>i thought...<br>maybe there is still a room for improvement.</p>
-
       <p>
         i see <b>gamification</b> as a promising method we can use to fix broken parts of human systems & productivity;
         and combined with the <b>humane spirit</b> in technology and design, <u><b>we can free the internet.</b></u>

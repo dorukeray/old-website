@@ -10,6 +10,7 @@
     "warmup": "yarn install && nuxt prepare && nuxt dev"
   },
   "devDependencies": {
+    "dotenv": "^16.0.2",
     "ftp-deploy": "^2.4.3",
     "nuxt": "3.0.0-rc.9",
     "nuxt-icon": "^0.1.5",

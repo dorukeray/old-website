@@ -69,23 +69,23 @@ definePageMeta({
 
     <article>
       <h2>experience</h2>
-      <h4>{ software }</h4>
-      <h4>{ education }</h4>
-      <h4>{ timeline }</h4>
+      <h3>{ software }</h3>
+      <h3>{ education }</h3>
+      <h3>{ timeline }</h3>
     </article>
 
     <article>
       <h2>projects</h2>
-      <h4>{ products }</h4>
-      <h4>{ engineering }</h4>
-      <h4>{ design }</h4>
+      <h3>{ products }</h3>
+      <h3>{ engineering }</h3>
+      <h3>{ design }</h3>
     </article>
 
     <article>
-      <h3>specialities</h3>
-      <h4>{ software }</h4>
-      <h4>{ design }</h4>
-      <h4>{ leadership }</h4>
+      <h2>specialities</h2>
+      <h3>{ software }</h3>
+      <h3>{ design }</h3>
+      <h3>{ leadership }</h3>
     </article>
 
     <Page:Contact />

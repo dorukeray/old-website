@@ -1,12 +1,10 @@
 <template>
   <article>
     <h3 style="margin-bottom: .5rem;">
-      <Icon name="twemoji:satellite" size="36" />&nbsp;
+      <Icon name="fluent-emoji-flat:call-me-hand-light" size="36" />
       contact
     </h3>
-    <p style="margin: 0; margin-bottom: .5rem; text-align: center;">want to have a talk? <b>let's get in touch!
-        <Icon name="fluent-emoji-flat:call-me-hand-light" size="24" />
-      </b></p>
+    <p style="margin: 0; margin-bottom: .5rem; text-align: center;">want to have a talk? <b>let's get in touch!</b></p>
     <CardDeck :columns="2">
       <li class="IconItem">
         <Icon name="tabler:brand-twitter" />

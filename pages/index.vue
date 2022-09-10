@@ -67,10 +67,7 @@ definePageMeta({
         <br>create a free and happy life experience, for everyone;
         <br><b>liberate the human with meaningful technology.</b>
       </p>
-      <p>
-        — yep. this is why i wake up every day.
-        <Icon name="twemoji:sunrise-over-mountains" size="24" />
-      </p>
+      <p>— yep. this is why i wake up every day.</p>
     </article>
 
     <article>
@@ -93,10 +90,7 @@ definePageMeta({
         </p>
       </Bulletpoint>
       <Bulletpoint icon="fluent-emoji-flat:school">
-        <p>
-          i study at <b>vefa lisesi</b>, a historical high school in istanbul
-          <Icon name="emojione:flag-for-turkey" size="26" />
-        </p>
+        <p>i study at <b>vefa lisesi</b>, a historical high school in istanbul.</p>
       </Bulletpoint>
       <Bulletpoint icon="fluent-emoji-flat:man-teacher-light">
         <p><b>i'm proudly a self-taught. this is my superpower.</b>
@@ -116,40 +110,24 @@ definePageMeta({
         </p>
       </Bulletpoint>
       <Bulletpoint icon="fluent-emoji-flat:soft-ice-cream">
-        <p>my hobbies reflect my whimsical artist nature
-          <Icon name="fluent-emoji-flat:call-me-hand-light" size="24" />
+        <p>my hobbies reflect my whimsical artist nature</p>
+        <p>
+          <Icon name="fluent-emoji-flat:framed-picture" size="32" />
+          <Icon name="fluent-emoji-flat:musical-score" size="32" />
+          <Icon name="fluent-emoji-flat:writing-hand-light" size="32" />
+          <Icon name="twemoji:video-game" size="32" />
+          <Icon name="fluent-emoji-flat:hammer-and-wrench" size="32" />
+          <Icon name="twemoji:classical-building" size="32" />
+          <Icon name="fluent-emoji-flat:camping" size="32" />
         </p>
         <ul style="margin: .25rem .5rem !important;">
-          <li><b>
-              <Icon name="fluent-emoji-flat:framed-picture" size="32" />
-              pixel art
-            </b> — less is more.</li>
-          <li><b>
-              <Icon name="fluent-emoji-flat:musical-score" size="32" />
-              music
-            </b> — vocal, guitar.</li>
-          <li><b>
-              <Icon name="fluent-emoji-flat:writing-hand-light" size="32" />
-              drawing
-            </b> — design, graphics, print.</li>
-          <li><b>
-              <Icon name="twemoji:video-game" size="32" />
-              games
-            </b> — strategy/role-play.</li>
-          <li><b>
-              <Icon name="fluent-emoji-flat:hammer-and-wrench" size="32" />
-              tinkering
-            </b> — some cute inventions.</li>
-          <li><b>
-              <Icon name="twemoji:classical-building" size="32" />
-              philosophy
-            </b> — thinking, reading, writing.</li>
-          <li>
-            <b>
-              <Icon name="fluent-emoji-flat:camping" size="32" />
-              trekking
-            </b> — sky, trees, fresh air.
-          </li>
+          <li><b>pixel art</b> — less is more.</li>
+          <li><b>music</b> — vocal, guitar.</li>
+          <li><b>drawing</b> — design, graphics, print.</li>
+          <li><b>games</b> — strategy/role-play.</li>
+          <li><b>tinkering</b> — some cute inventions.</li>
+          <li><b>philosophy</b> — thinking, reading, writing.</li>
+          <li><b>trekking</b> — sky, trees, fresh air.</li>
         </ul>
       </Bulletpoint>
       <Bulletpoint icon="fluent-emoji-flat:statue-of-liberty">

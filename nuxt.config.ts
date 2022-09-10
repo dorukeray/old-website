@@ -8,10 +8,8 @@ export default defineNuxtConfig({
     'images': 'public/images',
     'scss': 'assets/scss',
   },
+  ssr: false,
   target: 'static', // default is 'server'
-  css: [
-    '@/assets/scss/styles.scss',
-  ],
   typescript: {
     shim: false
   },
