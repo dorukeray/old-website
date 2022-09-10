@@ -3,7 +3,8 @@
 @charset 'utf-8';
 
 // Abstract
-@import "abstract/__index";
+@import "abstract/reference.scss";
+@import "abstract/system.scss";
 
 // Base
 @import "base/base";
