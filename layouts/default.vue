@@ -2,16 +2,16 @@
 </script>
 <template>
   <div>
-    <Page:Header />
+    <PageHeader />
     <slot />
-    <Page:Footer />
+    <PageFooter />
   </div>
 </template>
 <style lang="scss">
-@import "scss/styles.scss";
+@import "styles";
 
 .--dorkodian {
-  background-image: linear-gradient(48deg, hsl(100, 65%, 90%) 10%, hsl(125, 65%, 60%) 55%, hsl(160, 80%, 85%) 85%);
+  background-image: linear-gradient(48deg, hsl(100, 65%, 90%) 10%, hsl(125, 65%, 65%) 65%, hsl(160, 80%, 85%) 85%);
 }
 
 .icon {
@@ -35,7 +35,7 @@
   div {
     display: flex;
     flex-direction: column;
-    gap: .25rem;
+    gap: .15rem;
   }
 
   svg {
@@ -50,10 +50,10 @@
     font-size: 1.35rem;
     color: $reference-color-blue-50;
     font-weight: 500;
+    text-decoration: underline;
 
     &:hover {
       color: $reference-color-blue-30;
-      text-decoration: underline;
     }
   }
 

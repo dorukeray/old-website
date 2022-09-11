@@ -45,7 +45,7 @@ const { data }
 </script>
 
 <style lang="scss" scoped>
-@import "scss/styles.scss";
+@import "styles";
 
 .PostCard {
   padding: 2rem 1rem;

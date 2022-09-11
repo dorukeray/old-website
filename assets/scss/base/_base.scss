@@ -63,7 +63,7 @@ video {
 code {
   font-family: mononoki, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Roboto Mono", "Courier New", ui-monospace, monospace !important;
   font-weight: 400;
-  line-height: 1.25rem;
+  line-height: 1.25;
   background-color: $reference-color-gray-90;
   border-radius: .4rem;
   padding: .25rem;
@@ -209,7 +209,6 @@ article {
     margin: .5rem;
     margin-bottom: 1rem;
     font-size: 1.15rem;
-    line-height: 1.25;
     text-align: left;
 
     a {
@@ -241,7 +240,7 @@ span.--highlight {
   box-decoration-break: clone;
   color: $system-color-text;
   display: inline;
-  line-height: 125%;
+  line-height: 130%;
 }
 
 strong, b {

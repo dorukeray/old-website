@@ -23,7 +23,7 @@ let { message, owner } = defineProps<{
 </template>
 
 <style lang="scss" scoped>
-@import "scss/styles.scss";
+@import "styles";
 
 .quote {
   width: calc(100% - 1rem);
@@ -43,7 +43,7 @@ let { message, owner } = defineProps<{
   >h5 {
     text-align: left !important;
     margin: .5rem !important;
-    color: $reference-color-gray-40  !important;
+    color: $reference-color-gray-40 !important;
   }
 
   >p {

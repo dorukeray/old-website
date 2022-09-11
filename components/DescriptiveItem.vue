@@ -18,7 +18,7 @@ const { title, description } = defineProps<{
 </script>
 
 <style lang="scss" scoped>
-@import "scss/styles.scss";
+@import "styles";
 
 .descriptive-item {
   display: flex;

@@ -26,7 +26,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import "scss/styles.scss";
+@import "styles";
 
 .footer {
   width: 100%;

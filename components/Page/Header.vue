@@ -29,7 +29,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import "scss/styles.scss";
+@import "styles";
 
 .header {
   padding: 0.64rem;
@@ -73,13 +73,12 @@
       line-height: 1.5;
       font-size: 1.25rem;
       font-weight: 600;
-      color: $reference-color-gray-70;
+      color: $reference-color-gray-60;
       text-decoration: none;
 
       &:hover {
         background-color: $reference-color-green-90;
-        color: $reference-color-green-40;
-        text-decoration: underline;
+        color: $reference-color-green-30;
 
         svg {
           color: $reference-color-gray-50;

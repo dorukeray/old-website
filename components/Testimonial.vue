@@ -31,7 +31,7 @@ const { name, title, quote }
 </script>
 
 <style scoped lang="scss">
-@import "scss/styles.scss";
+@import "styles";
 
 .Testimonial {
   width: 100%;

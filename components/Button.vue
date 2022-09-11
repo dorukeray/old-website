@@ -19,7 +19,7 @@ let className = "button" + typeSuffix;
 </script>
 
 <style lang="scss">
-@import "scss/styles.scss";
+@import "styles";
 
 .button {
   display: inline-flex;
@@ -68,7 +68,7 @@ let className = "button" + typeSuffix;
   &.--outline {
     background-color: unset;
     padding: .3rem 1.4rem;
-    border: .2rem solid $system-color-primary-70  !important;
+    border: .2rem solid $system-color-primary-70 !important;
     color: $system-color-primary-40;
 
     &:hover,

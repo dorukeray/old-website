@@ -16,6 +16,8 @@ let { icon } = defineProps<{
 </script>
 
 <style lang="scss">
+@import "styles";
+
 $iconSize: 2.75rem;
 
 .Bulletpoint {
@@ -39,7 +41,7 @@ $iconSize: 2.75rem;
   }
 
   .emoji {
-    font-size: $iconSize  !important;
+    font-size: $iconSize !important;
     height: auto !important;
     width: auto !important;
     overflow: visible;

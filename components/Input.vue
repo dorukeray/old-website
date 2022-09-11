@@ -1,6 +1,4 @@
 <style lang="scss">
-@import "scss/styles.scss";
-
 .input {
   float: left;
   font-size: 1.1rem;

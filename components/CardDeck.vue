@@ -12,7 +12,7 @@ const { columns }
 const attrs = (columns) ? " --" + columns : "";
 </script>
 <style lang="scss">
-@import "scss/styles.scss";
+@import "styles";
 
 .CardDeck {
   display: grid;

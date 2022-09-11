@@ -187,14 +187,14 @@ const books: {
 
     <Break />
 
-    <Page:Legend />
+    <PageLegend />
 
     <Break />
   </main>
 </template>
 
 <style lang="scss" scoped>
-@import "scss/styles.scss";
+@import "styles";
 
 .CardDeck {
   margin: 0 auto;

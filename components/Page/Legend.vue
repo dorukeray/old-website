@@ -37,7 +37,7 @@
 </script>
 
 <style lang="scss" scoped>
-@import "scss/styles.scss";
+@import "styles";
 
 .Legend {
   border-radius: 1rem;

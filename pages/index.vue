@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-
 const hero = {
   title: "hello!",
   tagline: "i'm doruk eray.",
@@ -16,7 +15,7 @@ definePageMeta({
   keywords: `doruk eray, doruk, eray, mr. dorkodu, d0rukeray`,
 });
 </script>
-  
+
 <template>
   <main>
     <Showcase style="margin-top: 0;">
@@ -147,17 +146,16 @@ definePageMeta({
       <SectionRuler />
     </article>
 
-    <Page:Contact />
+    <PageContact />
 
     <Break />
 
-    <Page:Legend />
+    <PageLegend />
 
     <Break />
   </main>
 </template>
-  
 <style lang="scss">
-@import "scss/styles.scss";
+@import "styles";
 </style>
   

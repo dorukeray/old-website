@@ -88,11 +88,11 @@ definePageMeta({
       <h3>{ leadership }</h3>
     </article>
 
-    <Page:Contact />
+    <PageContact />
 
     <Break />
 
-    <Page:Legend />
+    <PageLegend />
 
     <!--
 
@@ -217,5 +217,5 @@ definePageMeta({
   </main>
 </template>
 <style lang="scss">
-@import "scss/styles.scss";
+@import "styles";
 </style>

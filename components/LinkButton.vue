@@ -14,7 +14,7 @@ const { action, title, link } = defineProps<{
 </template>
 
 <style lang="scss" scoped>
-@import "scss/styles.scss";
+@import "styles";
 
 .link-button {
   display: inline-block;
@@ -25,31 +25,31 @@ const { action, title, link } = defineProps<{
   border: .25em solid $reference-color-gray-95;
   min-width: 12.5rem;
   text-align: left;
-  color: $reference-color-gray-70  !important;
+  color: $reference-color-gray-70 !important;
 
   &:hover,
   &:focus {
-    border-color: $reference-color-gray-90  !important;
+    border-color: $reference-color-gray-90 !important;
     text-decoration: underline;
 
     .__action {
-      color: $reference-color-gray-60  !important;
+      color: $reference-color-gray-60 !important;
     }
   }
 
   .__title {
     display: block;
     font-size: 1.35rem;
-    line-height: 1.5rem;
+    line-height: 1.75rem;
     margin: .25rem 0;
     padding: 0;
     font-weight: 700;
-    color: $reference-color-gray-10  !important;
+    color: $reference-color-gray-10 !important;
   }
 
   .__action {
     display: block;
-    color: $reference-color-gray-70  !important;
+    color: $reference-color-gray-70 !important;
     font-size: 1.15rem;
     font-weight: 700;
     margin: .25rem 0;

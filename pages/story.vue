@@ -28,7 +28,6 @@ definePageMeta({
               <Icon name="twemoji:open-book" />
               <Icon name="twemoji:hourglass-done" />
               <Icon name="twemoji:three-oclock" />
-              <Icon name="" />
             </p>
           </template>
         </Hero>
@@ -202,11 +201,11 @@ definePageMeta({
       </p>
     </article>
 
-    <Page:Contact />
+    <PageContact />
 
     <Break />
 
-    <Page:Legend />
+    <PageLegend />
 
     <Break />
   </main>

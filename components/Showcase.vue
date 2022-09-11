@@ -14,7 +14,7 @@
 </script>
 
 <style lang="scss" scoped>
-@import "scss/styles.scss";
+@import "styles";
 
 .Showcase {
   display: flex;

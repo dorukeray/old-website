@@ -30,7 +30,7 @@ const { name, title, about, avatar }
 </script>
 
 <style lang="scss" scoped>
-@import "scss/styles.scss";
+@import "styles";
 
 .TeamMember {
   display: flex;

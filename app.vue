@@ -5,7 +5,7 @@ const WEBSITE_ROOT = "https://doruk.dorkodu.com";
 
 useHead({
   titleTemplate: `${route.meta.title} — doruk eray`,
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=5',
   charset: 'utf-8',
   meta: [
     { name: 'title', content: `${route.meta.title}` },
@@ -24,6 +24,9 @@ useHead({
   ],
   bodyAttrs: {
     class: 'body'
+  },
+  htmlAttrs: {
+    lang: "en"
   },
   script: [],
   link: [

@@ -13,7 +13,7 @@ let { source, title } = defineProps<{
 </template>
 
 <style lang="scss" scoped>
-@import "scss/styles.scss";
+@import "styles";
 
 .Picture {
   display: block;

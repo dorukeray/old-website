@@ -20,7 +20,7 @@ const { time, title, location, description }
 </script>
 
 <style lang="scss" scoped>
-@import "scss/styles.scss";
+@import "styles";
 
 .CareerStep {
   display: flex;
