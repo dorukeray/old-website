@@ -4,7 +4,7 @@
       <Icon name="fluent-emoji-flat:call-me-hand-light" size="36" />
       contact
     </h3>
-    <p style="margin: 0; margin-bottom: .5rem; text-align: center;">want to have a talk? <b>let's get in touch!</b></p>
+    <p style="margin: 0; margin-bottom: 1rem; text-align: center;">want to have a talk? <b>let's get in touch!</b></p>
     <CardDeck :columns="2">
       <div class="IconItem">
         <Icon name="tabler:brand-twitter" />

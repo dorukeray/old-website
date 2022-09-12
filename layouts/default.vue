@@ -11,7 +11,7 @@
 @import "styles";
 
 .--dorkodian {
-  background-image: linear-gradient(48deg, hsl(100, 65%, 90%) 10%, hsl(125, 65%, 65%) 65%, hsl(160, 80%, 85%) 85%);
+  background-image: linear-gradient(48deg, hsl(100, 65%, 90%) 10%, hsl(130, 70%, 70%) 70%, hsl(160, 80%, 85%) 85%);
 }
 
 .icon {
@@ -28,8 +28,7 @@
 }
 
 .IconItem {
-  display: flex;
-  align-items: center;
+  display: inline-flex;
   gap: .75rem;
 
   div {

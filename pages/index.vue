@@ -119,15 +119,14 @@ definePageMeta({
           <Icon name="twemoji:classical-building" size="32" />
           <Icon name="fluent-emoji-flat:camping" size="32" />
         </p>
-        <ul style="margin: .25rem .5rem !important;">
-          <li><b>pixel art</b> — less is more.</li>
-          <li><b>music</b> — vocal, guitar.</li>
-          <li><b>drawing</b> — design, graphics, print.</li>
-          <li><b>games</b> — strategy/role-play.</li>
-          <li><b>tinkering</b> — some cute inventions.</li>
-          <li><b>philosophy</b> — thinking, reading, writing.</li>
-          <li><b>trekking</b> — sky, trees, fresh air.</li>
-        </ul>
+        <p>
+          <b>philosophy</b> (stoicism, theory of knowledge),
+          <b>music</b> (vocal, guitar),
+          <b>drawing</b> (graphics, industrial design),
+          <b>games</b> (strategy/role-play)
+          <b>trekking</b> (sky, trees, fresh air)
+          and <b>pixel art</b>!
+        </p>
       </Bulletpoint>
       <Bulletpoint icon="fluent-emoji-flat:statue-of-liberty">
         <p>i love <b>open source</b>, contributing to a common good.</p>
