@@ -19,5 +19,5 @@ ftpDeploy
     // use sftp or ftp
     sftp: false,
   })
-  .then((res) => console.log("finished:", res))
-  .catch((err) => console.log(err));
+  .then((res) => console.info("finished:", res))
+  .catch((err) => console.error(err));
