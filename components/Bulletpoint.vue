@@ -30,7 +30,7 @@ $iconSize: 2.75rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: .25rem;
+    gap: .5rem;
 
 
     * {

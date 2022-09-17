@@ -30,7 +30,7 @@ useHead({
   },
   script: [],
   link: [
-    { rel: 'icon', type: 'image/x-icon', href: 'favicon.png' }
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
   ],
 })
 </script>
@@ -42,5 +42,5 @@ useHead({
 </template>
 
 <style lang="scss">
-@import "scss/styles.scss";
+@import "styles";
 </style>
