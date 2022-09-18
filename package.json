@@ -7,7 +7,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "publish": "yarn node publish",
-    "warmup": "yarn install && nuxt prepare && nuxt dev"
+    "warmup": "yarn install && nuxt prepare"
   },
   "devDependencies": {
     "dotenv": "^16.0.2",
