@@ -1,22 +1,15 @@
 {
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "publish": "yarn node publish",
-    "warmup": "yarn install && nuxt prepare"
-  },
-  "devDependencies": {
-    "dotenv": "^16.0.2",
-    "ftp-deploy": "^2.4.3",
-    "nuxt": "rc",
-    "nuxt-icon": "^0.1.5",
-    "sass": "^1.54.0",
-    "sass-loader": "^13.0.2",
-    "twemoji": "^14.0.2"
-  },
-  "packageManager": "yarn@3.2.3"
+	"name": "astro",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"astro": "^2.0.12"
+	}
 }
